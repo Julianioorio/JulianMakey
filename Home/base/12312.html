@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Luxurious 5-star hotel in Dubai offering world-class amenities and accommodations.">
+    <title>Top Dubai Hotel - Experience Luxury</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            text-align: center;
+            margin: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        section {
+            padding: 20px;
+            margin: 20px 10px;
+        }
+        h2 {
+            color: #333;
+        }
+        .hero {
+            background-image: url('dubai-hotel.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            position: relative;
+        }
+        .hero h2 {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            color: white;
+            font-size: 3em;
+        }
+        .room, .amenity {
+            background-color: white;
+            padding: 20px;
+            margin: 10px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .room img, .amenity img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .booking-form {
+            background-color: #eaeaea;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .booking-form input, .booking-form select, .booking-form button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Dubai Luxury Hotel</h1>
+        <nav>
+            <a href="#rooms">Rooms</a>
+            <a href="#amenities">Amenities</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#booking">Book Now</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Experience Unmatched Luxury</h2>
+    </section>
+
+    <section id="rooms">
+        <h2>Our Rooms</h2>
+
+        <div class="room">
+            <h3>Deluxe Suite</h3>
+            <img src="deluxe-suite.jpg" alt="Deluxe Suite">
+            <p>Enjoy the ultimate comfort in our Deluxe Suite with breathtaking views of the city skyline. This room offers a king-size bed, private balcony, and luxury amenities.</p>
+        </div>
+
+        <div class="room">
+            <h3>Presidential Suite</h3>
+            <img src="presidential-suite.jpg" alt="Presidential Suite">
+            <p>The Presidential Suite offers unparalleled luxury with a private terrace, personalized service, and exclusive access to VIP areas. Experience royal treatment in this exquisite suite.</p>
+        </div>
+    </section>
+
+    <section id="amenities">
+        <h2>Amenities</h2>
+
+        <div class="amenity">
+            <h3>Infinity Pool</h3>
+            <img src="infinity-pool.jpg" alt="Infinity Pool">
+            <p>Relax by our rooftop infinity pool and enjoy stunning views of Dubai's skyline and the Persian Gulf. Our pool offers a luxurious retreat from the busy city life.</p>
+        </div>
+
+        <div class="amenity">
+            <h3>World-class Spa</h3>
+            <img src="spa.jpg" alt="World-class Spa">
+            <p>Our award-winning spa provides a range of rejuvenating treatments and therapies. Pamper yourself with massages, facials, and a variety of wellness options.</p>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <img src="gallery1.jpg" alt="Hotel View" style="width: 30%; margin: 5px;">
+        <img src="gallery2.jpg" alt="Lobby" style="width: 30%; margin: 5px;">
+        <img src="gallery3.jpg" alt="Dining Area" style="width: 30%; margin: 5px;">
+    </section>
+
+    <section id="booking">
+        <h2>Book Your Stay</h2>
+
+        <div class="booking-form">
+            <h3>Reserve a Room</h3>
+            <form action="submit-booking.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="room">Room Type:</label>
+                <select id="room" name="room">
+                    <option value="deluxe-suite">Deluxe Suite</option>
+                    <option value="presidential-suite">Presidential Suite</option>
+                </select>
+
+                <label for="checkin">Check-in Date:</label>
+                <input type="date" id="checkin" name="checkin" required>
+
+                <label for="checkout">Check-out Date:</label>
+                <input type="date" id="checkout" name="checkout" required>
+
+                <button type="submit">Book Now</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Dubai Luxury Hotel. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
