@@ -1,0 +1,769 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heder {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.logo {
+    float: left;
+    margin-top: 13px;
+    margin-right: 35px;
+}
+
+.menu li {
+    float: left;
+    text-transform: uppercase;
+    list-style-type: none;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 33px 26px 36px 10px;
+}
+
+.menu li:nth-child(2) {
+    color: red;
+}
+
+.kontact {
+    float: right;
+}
+
+.telep {
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+button {
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 11px 17px 12px 16px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin: 22px 0px 0px 36px;
+}
+
+.travel {
+    background: url(img/wallpapers\ 2.png) top left no-repeat;
+    background-size: 100%;
+    padding: 200px 300px 400px;
+}
+
+.travel h1 {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: normal;
+    color: white;
+    font-size: 90px;
+    text-align: center;
+}
+.travel p {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: white;
+    margin-top: 38px;
+    font-size: 20px;
+}
+.tour {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 134px;
+}
+.tour + p {
+    font-family: "Roboto", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+span.millanova {
+    font-family: 'Millanova';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;
+    color: rgb(212,212,212);
+    position: absolute;
+    margin-left: -70px;
+    margin-top: -24px;
+}
+.imgtour {
+    background: url(img/ПЛАШКА\ НАД\ КАРТИНКОЙ\ \(1\).png), url(img/bechir-kaddech-VHUuWxbjyRI-unsplash\ 1.png) top left; 
+    background-repeat: no-repeat;
+    padding: 20px;
+    width: 256px;
+    height: 338px;
+    border-radius: 15%;
+    float: left;
+    margin-right: 10px;
+    margin-top: 40px;
+    margin-bottom: 193px;
+}
+
+.imgtour span {
+    border-radius: 25px;
+    border: 1px solid white;
+    color: white;
+    padding: 2px 8px;
+    margin-right: 4px;
+}
+.imgtour p {
+    color: white;
+    margin-top: 208px;
+    font-weight: 600;
+}
+.imgtour  .data {
+    margin: 5px 1px;
+}
+.imgtour  .info {
+    margin: 5px 1px;
+    font-size: 12px;
+    float: left;
+}
+.imgtour  img {
+    margin-top: 5px;
+}
+.menuhotels {
+    background-color: rgb(248,248,248);
+    padding-top: 75px;
+}
+.Hotels {
+    width: 100%;
+    margin: 0 auto;
+}
+.millanova2 {
+    font-family: 'Millanova';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;
+    color: rgb(212,212,212);
+    margin-top: 75px;
+    margin-left: 45%;
+}
+.millanova2 + h1 {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin-top: -61px;
+}
+.Hotels h1 + p {
+    font-family: "Roboto", serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 52px;
+}
+.Hotels {
+    padding-bottom: 193px;
+}
+.hotel1 {
+    background: url(img/Group.png) 92% 7% no-repeat, url(img/Rectangle\ 9.png) top left no-repeat, url(img/Rectangle\ 10.png) top left no-repeat, url(img/Mask\ group.png) top left no-repeat;
+    padding-top: 30px;
+    float: left;
+    height: 340px;
+}
+.hotel1 span:first-of-type {
+    font-family: 'Chandra';
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+    color: white;
+    font-size: 62px;
+    margin: 30px 53px 2px 328px;
+}
+.hotel1 span + p {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 28px;
+    margin: 154px 0px 2px 35px;
+    width: 191px;
+}
+.hotel1 p + span {
+    margin-top: 5px;
+    margin-left: 38px;
+    font-size: 14px;
+    color: white;
+}
+.hotel1 span + img {
+    vertical-align: middle;
+    margin-top: 6px;
+}
+.hotel2 {
+    background: url(img/Group.png) 92% 7% no-repeat, url(img/Rectangle\ 9.png) top left no-repeat, url(img/Rectangle\ 10.png) top left no-repeat, url(img/Mask\ group3.png) top left no-repeat;
+    padding-top: 30px;
+    float: right;
+    height: 340px;
+}
+.hotel2 span:first-of-type {
+    font-family: 'Chandra';
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+    color: white;
+    font-size: 62px;
+    margin: 30px 53px 2px 328px;
+}
+.hotel2 span + p {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 28px;
+    margin: 154px 0px 2px 35px;
+    width: 191px;
+}
+.hotel2 p + span {
+    margin-top: 5px;
+    margin-left: 38px;
+    font-size: 14px;
+    color: white;
+}
+.hotel2 span + img {
+    vertical-align: middle;
+    margin-top: 6px;
+}
+.hotel3 {
+    background: url(img/Group.png) 82% 8% no-repeat, url(img/Mask\ group2.png) top left no-repeat;
+    margin-left: 489px;
+    height: 400px;
+    margin-right: 456px;
+    margin-top: -29px;
+    padding-top: 45px;
+}
+.hotel3 span:first-of-type {
+    font-family: 'Chandra';
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+    color: white;
+    font-size: 62px;
+    margin-left: 422px;
+}
+.hotel3 span + p {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 28px;
+    margin: 165px 0px 2px 35px;
+    width: 191px;
+}
+.hotel3 p + span {
+    margin-top: 5px;
+    margin-left: 38px;
+    font-size: 14px;
+    color: white;
+}
+.hotel3 span + img {
+    vertical-align: middle;
+    margin-top: 6px;
+}
+.girl {
+    background: url(img/girl.png) 50% 50% no-repeat;
+    padding: 392px 150px 20px;
+    margin-bottom: 30px;
+}
+.blank {
+    background-color: white;
+    border-radius: 20px;
+    padding: 3px;
+    
+}
+.blank ul:first-child {
+    list-style-type: none;
+}
+.blank h3:first-of-type {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 24px;
+}
+.blank li:nth-child(2) {
+    font-family: "Roboto", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 16px;
+
+}
+.heder .blank li {
+    float: left;
+    margin: 20px 35px 20px 20px ;
+}
+.blank li:nth-child(3) {
+    color: rgb(235, 235, 235);
+}
+.blank p {
+    border-bottom: 1px solid rgb(244, 244, 244);
+}
+.blank li:last-child{
+    float: right;
+    margin-right: 50px;
+}
+.button {
+    margin: 0px 0px 0px 0px;
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+}
+.millanova3 {
+    font-size: 38px;
+}
+.millanova3 + h1 {
+    margin-top: -106px;
+}
+.Revirs1 {
+    float: left;
+    background-color: rgb(248, 248, 248);
+    border-radius: 20px;
+}
+.Revirs1 img:first-child {
+    margin: 27px 144px 19px 144px;
+}
+.Revirs1 br + img {
+    margin-bottom: 10px;
+    margin-left: 109px;
+}
+.Revirs1 p:first-of-type {
+    font-family: "Roboto", serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+}
+.Revirs1 p:first-of-type + p {
+    font-family: "Roboto", serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-size: 13px;
+}
+.Revirs1 p:last-of-type {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: left;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 34px;
+    font-size: 16px;
+}
+.Revirs3 {
+    float: right;
+    background-color: rgb(248, 248, 248);
+    border-radius: 20px;
+}
+.Revirs3 img:first-child {
+    margin: 27px 144px 19px 144px;
+}
+.Revirs3 br + img {
+    margin-bottom: 10px;
+    margin-left: 109px;
+}
+.Revirs3 p:first-of-type {
+    font-family: "Roboto", serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+}
+.Revirs3 p:first-of-type + p {
+    font-family: "Roboto", serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-size: 13px;
+}
+.Revirs3 p:last-of-type {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: left;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 34px;
+    font-size: 16px;
+}
+.Revirs2 {
+    background-color: rgb(248, 248, 248);
+    border-radius: 20px;
+    float: left;
+    margin-left: 4px;
+    margin-bottom: 215px;
+}
+.Revirs2 img:first-child {
+    margin: 27px 144px 19px 144px;
+}
+.Revirs2 br + img {
+    margin-bottom: 10px;
+    margin-left: 109px;
+}
+.Revirs2 p:first-of-type {
+    font-family: "Roboto", serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+}
+.Revirs2 p:first-of-type + p {
+    font-family: "Roboto", serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-size: 13px;
+}
+.Revirs2 p:last-of-type {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: left;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 34px;
+    font-size: 16px;
+}
+.news {
+    background-color: rgb(248, 248, 248);
+    padding-top: 134px;
+}
+span.NEWS2 {
+    font-size: 40px;
+}
+.chill {
+    margin-top: 62px;
+}
+.ch1 {
+    background: url(img/ПППch1p1.png) no-repeat, url(img/ch1p1.png) no-repeat;
+    padding: 55px 290px 40px 28px;
+    float: left;
+    margin-right: 6px;
+    border-radius: 50px;
+}
+.ch1 p:first-of-type {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    color: white;
+}
+.ch1 p:last-of-type{
+    font-family: "Roboto", serif;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+    font-size: 12px;
+}
+.ch1 p:last-of-type + img {
+    margin: -15px 10px 10px 45px;
+}
+.ch2 {
+    background: url(img/ch2p2.png) no-repeat;
+    padding: 140px 16px 35px 20px;
+    float: left;
+}
+.ch2 p:first-of-type {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+}
+.ch2 p:last-of-type{
+    font-family: "Roboto", serif;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+    font-size: 12px;
+}
+.ch2 p:last-of-type + img {
+    margin: -15px 10px 10px 45px;
+}
+.ch3 {
+    background: url(img/ch3p3.png) no-repeat;
+    padding: 157px 105px 35px 20px;
+    float: right;
+}
+.ch3 p:first-of-type {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+}
+.ch3 p:last-of-type{
+    font-family: "Roboto", serif;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+    font-size: 12px;
+}
+.ch3 p:last-of-type + img {
+    margin: -15px 10px 10px 45px;
+}
+.CH1 {
+    background: url(img/CH1.png) no-repeat;
+    padding: 157px 34px 35px 20px;
+    float: left;
+}
+.CH1 p:first-of-type {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+}
+.CH1 p:last-of-type{
+    font-family: "Roboto", serif;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+    font-size: 12px;
+}
+.CH1 p:last-of-type + img {
+    margin: -15px 10px 10px 45px;
+}
+.CH2 {
+    background: url(img/ПППch1p1.png) no-repeat, url(img/CH2.png) no-repeat;
+    padding: 45px 37px 44px 295px;
+    float: left;
+    margin-right: 6px;
+    border-radius: 50px;
+}
+.CH2 p:first-of-type {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    color: white;
+}
+.CH2 p:last-of-type{
+    font-family: "Roboto", serif;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+    font-size: 12px;
+}
+.CH2 p:last-of-type + img {
+    margin: -15px 10px 10px 45px;
+}
+.CH3 {
+    background: url(img/CH3.png) no-repeat;
+    padding: 138px 34px 35px 20px;
+    float: right;
+    margin-bottom: 140px;
+}
+.CH3 p:first-of-type {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+}
+.CH3 p:last-of-type{
+    font-family: "Roboto", serif;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+    font-size: 12px;
+}
+.CH3 p:last-of-type + img {
+    margin: -15px 10px 10px 45px;
+}
+.millanova4 {
+    margin-left: 47%;
+}
+.We {
+    padding-top: 70px;
+    padding-bottom: 44px;
+}
+.we p{
+    float: left;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 26px;
+    font-size: 16px;
+}
+.we img:first-of-type {
+    float: left;
+}
+.we img:nth-child(2) + img{
+    float: left;
+    margin-bottom: 88px;
+}
+.we img:nth-child(3) + p {
+    margin: 61px 6px 10px 17px;
+    float: left;
+}
+.we p:last-child {
+    float: right;
+    margin: 61px -9px 10px 10px;
+}
+.contact {
+    border-top: 1px solid rgb(205, 195, 195);
+    border-bottom: 1px solid rgb(205, 195, 195);
+    margin-bottom: 140px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.sots {
+    float: left;
+}
+.sots h1:first-of-type{
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.sots ul:first-of-type {
+    list-style-type: none;
+}
+.sots li {
+    float: left;
+    margin: 10px;
+}
+.adress {
+    width: 200px;
+    float: right;
+}
+.adress h1:first-of-type{
+    float: right;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    margin-right: 65px;
+    margin-bottom: 20px;
+    margin-top: 21px;
+    padding-bottom: 1px;
+}
+.adress li {
+    font-family: "Roboto", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 14px;
+    text-align: center;
+}
+.adress ul:first-of-type {
+    list-style-type: none;
+}
+.number{
+    margin-left: 423px;
+    margin-right: 300px;
+    padding-top: 21px;
+    text-align: center;
+}
+.number h1{
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-bottom: 1px;
+}
+.Gor {
+    background: url(img/Gor.png) center no-repeat;
+    padding-top: 200px;
+    padding-bottom: 110px;
+}
+.blank2 {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+.heder .blank2 li {
+    margin: 20px 55px 20px 20px;
+}
+.footer {
+    background-color: black;
+    padding-top: 52px;
+}
+.logofff {
+    margin-bottom: 50px;
+}
+.logofff img {
+    float: left;
+}
+.logofff span, .logofff input{
+    float: right;
+}
+.logofff span {
+    font-family: "Roboto", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 14px;
+    color: white;
+}
+.logofff input{
+    border: 1px solid white;
+    background-color: black;
+    padding: 10px;
+    padding-left: 40px;
+    border-radius: 30px;
+    color: white;
+    margin-bottom: 67px;
+}
+.img {
+    background: url(img/Feather\ Icon.png) 6% 53% no-repeat, url(img/Group\ 1146.png) 91% 47% no-repeat;
+    float: left;
+}
+.all {
+    padding-top: 47px;
+    padding-bottom: 60px;
+    border-top: 1px solid rgb(205, 195, 195);
+    border-bottom: 1px solid rgb(205, 195, 195);
+    margin-bottom: 42px;
+}
+.all ul {
+    list-style-type: none;
+}
+.all li{
+    float: left;
+    font-family: "Roboto", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 12px;
+    color: white;
+    margin: 10px 57px 10px 12px;
+}
+.sots2 ul {
+    list-style-type: none;
+}
+.sots2 {
+    float: left;
+    margin: 10px 10px 10px 543px;
+}
+.sots2 li {
+    float: left;
+    margin: 0px 20px 10px 20px;
+}
+.footer p:last-of-type {
+    font-family: "Roboto", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 12px;
+    color: silver;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
