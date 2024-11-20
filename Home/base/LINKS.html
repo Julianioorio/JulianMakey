@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        a:hover {
+            color: red;
+        }
+        .table {
+            float: left;
+        }
+        .Tough {
+            display: inline-block;
+            width: 150px;
+            height: 150px;
+            background: url(../../Палочки.png) top right no-repeat;
+            float: left;
+        }
+        .Tough a {
+            padding: 15px 8px;
+            display: inline-block;
+        }
+        .Rubber {
+            display: flex;
+            flex-direction: column;
+            width: 8%;
+            float: left;
+            margin-right: 20px;
+        }
+        .Rubber a {
+            padding: 15px 8px;
+            display: inline-block;
+        }
+        .Rubber img {
+            height: 150px;
+            width: 20px;
+            position: absolute;
+            margin-left: 107px;
+        }
+        .Grid {
+            display: grid;
+            grid-column: 1;
+            float: left;
+            background: url(../../Палочки.png) top right no-repeat;
+        }
+        .Grid a {
+            padding: 15px 8px;
+            display: inline-block;
+        }
+        .block a {
+            padding: 15px 8px;
+            display: inline-block;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="table">
+        <table>
+            <tr>
+                <th>
+                    <a href="#">первая ссылка</a>
+                </th>
+                <th rowspan="3">
+                    <img src="../../Палочки.png">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <a href="#">первая ссылка</a>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <a href="#">первая ссылка</a>
+                </th>
+            </tr>
+        </table>
+       <!-- Ссылки расположены в строку табличным методом, разделения сделаны тоже таблицей th c атрибутом rowspan="3" и картинкой.
+        Из достоинств табличной вёрстке это то что он помогал раньше верстать макеты относительно адаптивно из минусов это то что он устарел и используется только в таблицах.-->
+    </div>
+    <div class="Tough">
+        <a href="#">Вторая ссылка</a>
+        <a href="#">Вторая ссылка</a>
+        <a href="#">Вторая ссылка</a>
+        <!-- Ссылки расположены в строку жёсткой вёрсткой с указанием им и блоку display: inline-block;, разделение сделано с помощью    background: url(../../Палочки.png) top right no-repeat;. Из достоинств жёсткой вёрстки, это то что оно тоже помогало раньше верстать макеты, недостаток в том что она устарела и используется очень редко.-->
+    </div>
+    <div class="Rubber">
+        <a href="#">третья ссылка</a>
+        <a href="#">третья ссылка</a>
+        <a href="#">третья ссылка</a>
+        <img src="../../Палочки.png">
+        <!--Резиновая вёрстка так как ширина блока зависит от ширины экрана. Ссылки реализованы флекс свойством, одно из популярных и новых способов позиционирования, удобно и круто, разделение реализовано абсолютным позиционированием, такое свойство редко используется, но всё же оно актуально. -->
+    </div>
+    <div class="Grid">
+        <a href="#">четвёртая ссылка</a>
+        <a href="#">четвёртая ссылка</a>
+        <a href="#">четвёртая ссылка</a>
+        <!-- Ссылки реализованны грид способом, тоже одно из самых популярных способов позиционирования из-за удобства и возможностей. разделители способом  background: url(../../Палочки.png) top right no-repeat;-->
+    </div>
+    <div class="block">
+        <div><a href="#">пятая ссылка</a></div>
+        <div><a href="#">пятая ссылка</a></div>
+        <div><a href="#">пятая ссылка</a></div>
+        <!-- Ссылки реализованны блочным способом -->
+    </div>
+</body>
+
+</html>
