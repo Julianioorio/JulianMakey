@@ -1,0 +1,67 @@
+.main6 {
+    background-color: rgba(255, 250, 234, 1);
+    padding-top: 50px;
+    padding-bottom: 84px;
+}
+
+.main6 h3 {
+    font-family: Raleway;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 30px;
+}
+.main6block {
+    display: flex;
+}
+.reviws {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.reviws div {
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    border-radius: 8px;
+    flex-basis: 47%;
+}
+.reviws div > img{
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.reviws img:nth-child(2) {
+    vertical-align: top;
+}
+
+.reviws p {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 28px;
+}
+.reviws div:nth-child(4) p, .reviws div:nth-child(2) p {
+    margin-bottom: 47px;
+}
+.reviws span {
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(252, 207, 60, 1);
+    margin-right: 10px;
+}
+.video img {
+    height: 100%;
+
+}

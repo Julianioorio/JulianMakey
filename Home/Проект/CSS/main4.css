@@ -1,0 +1,58 @@
+.main4 {
+    background-color: #FFFAEA;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+}
+.main4 .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.main4 p {
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+}
+.main4 .container div:first-of-type {
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px 33px 40px 20px;
+}
+.main4 p:first-of-type {
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36.4px;
+    color: #171717;
+}
+.main4 p:nth-child(2) {
+    font-family: Raleway;
+    color: #FCCF3C;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36.4px;
+    margin-bottom: 20px;
+}
+.main4 p:nth-child(6) {
+    background-color: #FCCF3C;
+    border-radius: 8px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.main4 p:last-of-type {
+    margin-bottom: 85px;
+}
+.main4 a {
+    color: #FCCF3C;
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    margin-right: 10px;
+}
+.main4  .container div:last-of-type  {
+   background: url(/Img/main4.png);
+   background-size: cover;
+   flex-basis: 600px;
+}

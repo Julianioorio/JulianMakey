@@ -1,0 +1,142 @@
+.main5 {}
+
+.main5 h3 {
+    font-family: Raleway;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36.4px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.main5 img {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+input[type="text"] {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+}
+.main5form {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.main5form1 {
+    background-color: rgba(255, 222, 115, 1);
+    padding: 40px 23px 69px 20px;
+    flex-basis: 60%;
+}
+
+.main5form1 h2 {
+    font-family: Raleway;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 48.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 20px;
+}
+
+.main5form1 p {
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.main5form1 p:last-of-type {
+    margin-bottom: 86px;
+}
+
+
+.main5form1 form p a {
+    text-decoration: underline;
+}
+
+.main5form1 form input:first-child {
+    margin-right: 20px;
+    padding-right: 96px;
+    margin-bottom: 45px;
+}
+
+.main5form1 input {
+    display: inline-block;
+    height: 56px;
+    padding: 0.375rem 0.75rem;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 10px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.main5form1 input:nth-child(2) {
+    width: 18em;
+}
+
+.main5form1 input:nth-child(4) {
+    display: inline-block;
+    width: 289px;
+    height: 56px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #171717;
+    color: white;
+    padding: 15px 31px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.main5form1 form p:last-of-type {
+    display: inline-block;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 0;
+    padding: 0;
+    vertical-align: middle;
+    margin-bottom: 0;
+}
+
+.main5form2 {
+    display: flex;
+    flex-direction: column;
+
+}
+.main5form2 img {
+    height: 49%;
+}
+.main5form2 img:first-of-type {
+    margin-bottom: 20px;
+}
+.main5form2 img:last-of-type {
+    margin-bottom: 0;
+}
+.main5form960 {
+    display: none;
+}
+.main5 h3+div img:last-child {
+    display: none;
+}

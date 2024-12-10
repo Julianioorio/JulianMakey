@@ -1,0 +1,179 @@
+.main3 {
+    margin-top: 100px;
+}
+
+.main3 .container h3 {
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36.8px;
+    margin-bottom: 30px;
+}
+
+.main3block {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.main3block1 {
+    background: url(/Img/Card1.png) no-repeat;
+    flex: 1 0 392px;
+    position: relative;
+    background-size: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.main3block1 span {
+    position: absolute;
+    top: 401px;
+    left: 20px;
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: white;
+    white-space: nowrap;
+}
+
+.main3block1 a {
+    position: absolute;
+    top: 408px;
+    right: 35px;
+}
+
+.main3block2 {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+}
+
+.main3block2 div:first-child {
+    background: url(../Img/Card2.png) no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    flex-basis: 392px;
+    padding: 166px 20px 20px 20px;
+}
+
+.main3block2 div:first-child span {
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: white;
+    white-space: nowrap;
+    margin-right: 170px;
+}
+
+.main3block2 div:nth-child(2) {
+    background: url(../Img/Card3.png) no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    flex-basis: 392px;
+    padding: 166px 20px 20px 20px;
+}
+
+.main3block2 div:nth-child(2) span {
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: white;
+    margin-right: 170px;
+}
+
+.main3block2 div:nth-child(3) {
+    background: url(../Img/Card4.png) no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    flex-basis: 392px;
+    padding: 166px 20px 20px 20px;
+}
+
+.main3block2 div:nth-child(3) span {
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: white;
+    margin-right: 80px;
+
+
+}
+
+.main3block2 div:nth-child(4) {
+    background: url(../Img/Card5.png) no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    flex-basis: 392px;
+    padding: 166px 20px 20px 20px;
+}
+
+.main3block2 div:nth-child(4) span {
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: white;
+    margin-right: 178px;
+}
+
+
+.main3block3 {
+    background: url(/Img/promotion.png) no-repeat;
+    background-size: cover;
+    padding: 40px 0px 40px 20px;
+    margin-bottom: 100px;
+    border-radius: 8px;
+}
+
+.main3block3 h1 {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 57.2px;
+    margin-bottom: 20px;
+}
+
+.main3block3 p {
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36.4px;
+}
+
+.main3block3 p:last-of-type {
+    margin-bottom: 50px;
+}
+
+.main3block3 p:first-of-type {
+    background-color: #FCCF3C;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 5px 8px;
+}
+
+.main3block3 a {
+    display: inline-block;
+    width: 289px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #171717;
+    color: white;
+    padding: 15px 31px;
+    border-radius: 10px;
+}
+
+.main3block960 {
+    display: none;
+}
+.main3block760 {
+    display: none;
+}

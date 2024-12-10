@@ -1,0 +1,70 @@
+@media all and (max-width: 1150px) {
+    .container {
+        width: 900px;
+    }
+    .main1 p {
+        font-size: 27px;
+    }
+    .main1 div:first-of-type {
+        background-size: contain;
+    }
+    .main1 div:first-of-type {
+        background: url(../Img/Header_logo.png) no-repeat;
+        background-size: cover;
+        padding: 26px 295px 60px 20px;
+        margin-bottom: 100px;
+    }
+    .header nav+a, .header div a {
+        margin-left: 26px;
+        padding: 8px 8px;
+        border-radius: 4px;
+        font-family: Raleway;
+        font-weight: 600;
+        font-size: 21px;
+        line-height: 28.8px;
+        background-color: #FCCF3C;
+    }
+    .header li a, .header li span {
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .main4 .container div:last-of-type {
+        background: url(/Img/main4.png) no-repeat;
+        background-size: cover;
+        flex-basis: 47%;
+    }
+    .main5form962 {
+        width: 49%;
+    }
+    .main3block961 div:last-of-type span {
+        font-family: Raleway;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28.8px;
+        color: white;
+        margin-right: 174px;
+    }
+    .main3block961 div:first-of-type span {
+        font-family: Raleway;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28.8px;
+        color: white;
+        margin-right: 200px;
+    }
+    .main3block962 div {
+        padding: 158px 20px 20px 20px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28.8px;
+    }
+    .main3block962 div {
+        padding: 166px 20px 20px 20px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28.8px;
+    }
+    .footer {
+        min-width: 900px;
+    }
+}

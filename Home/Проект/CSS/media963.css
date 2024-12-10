@@ -1,0 +1,122 @@
+@media all and (max-width: 920px) {
+    .container {
+        width: 800px;
+    }
+
+    .main3block962 div:first-of-type span {
+        margin-right: 212px;
+    }
+
+    .main3block962 div:nth-child(2) span {
+        margin-right: 220px;
+    }
+
+    .main3block962 div:nth-child(3) span {
+        margin-right: 224px;
+    }
+
+    .main3block961 div:first-of-type span {
+        margin-right: 189px;
+    }
+
+    .header>img {
+        width: 140px;
+    }
+
+    .main1 p {
+        font-size: 38px;
+    }
+
+    .header nav+a,
+    .header div a {
+        font-size: 13px;
+    }
+
+    .main2block1 {
+        display: none;
+    }
+
+    .main2block2960 {
+        display: none;
+    }
+
+    .main2block780 {
+        display: block;
+    }
+
+    .main2block780 .main2block2961 {
+        margin-bottom: 30px;
+    }
+
+    .main2block780 .main2block1 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .main2block781 {
+        display: flex;
+    }
+
+    .main2block781 .main2block3 div p:first-child {
+        font-family: Raleway;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 52.2px;
+        color: #FCCF3C;
+    }
+
+    .main2block781 .main2block3 div p:last-child {
+        font-family: Raleway;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28.8px;
+        color: #FCCF3C;
+    }
+    .main2block3 {
+        display: flex;
+        flex-direction: column;
+    }
+    .main2block1 div {
+        flex: 1 0 33%;
+    }
+    .main2block1 {
+        margin-right: 40px;
+    }
+    .main3block961 div:first-of-type span {
+        margin-right: 161px;
+    }
+    .main3block961 div:last-of-type span {
+        margin-right: 145px;
+    }
+    .main4 .container {
+        flex-direction: column;
+    }
+    .main4 .container div:last-of-type {
+        background: url(/Img/main4.png) no-repeat;
+        background-size: cover;
+        order: -1;
+        padding: 350px;
+    }
+    .main4 p:nth-child(odd) {
+        display: inline;
+        white-space: normal;
+    } 
+    .main4 p:nth-child(even) {
+        display: inline;
+        white-space: normal;
+    }
+    .main4 p:nth-child(8) {
+        margin-bottom: 35px;
+    }
+    .main4 p:nth-child(1), .main4 p:nth-child(2){
+        display: block;
+    } 
+    .main4 img:last-child {
+        margin-top: 45px;
+    }  
+    .footer {
+        min-width: 800px;
+    } 
+}

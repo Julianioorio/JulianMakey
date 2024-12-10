@@ -1,0 +1,100 @@
+.main2 {
+    background-color: #FFFAEA;
+    padding-top: 50px;
+    padding-bottom: 54px;
+    display: flex;
+}
+.main2 .container {
+    display: flex;
+}
+
+.main2block1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.main2block1 div {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px 20px 13px 20px;
+    flex: 1 1 calc(50% - 10px);
+}
+
+.main2block1 h4 {
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28.8px;
+    border-bottom: 2px solid #FCCF3C;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.main2block1 p {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    text-align: left;
+}
+.main2block2 {
+    margin-left: 123px;
+    flex: 1 1 calc(60% - 10px);
+}
+.main2block2 p span {
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36.4px;
+    color:  #FCCF3C;
+}
+.main2block2 p {
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36.4px;
+}
+.main2block2 p:last-of-type {
+    margin-bottom: 99px;
+}
+.main2block2 h4 {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 57.2px;
+    color: #FCCF3C;
+}
+.main2block3 {
+    display: flex;
+    flex-direction: row;
+}
+.main2block3 div {
+    margin-right: 35px;
+    flex-basis: 171px;
+}
+.main2block2 div p:first-child {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 52.2px;
+    color: #FCCF3C;
+}
+.main2block2 div p:last-child {
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: #FCCF3C;
+}
+.main2block2960 {
+    display: none;
+}
+.main2block760 {
+    display: none;
+}
+.main2block780 {
+    display: none;
+}

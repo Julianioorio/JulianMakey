@@ -1,0 +1,43 @@
+.main1 div:first-of-type {
+    background: url(../Img/Header_logo.png) no-repeat;
+    background-size: cover;
+    padding: 196px 595px 60px 20px;
+    margin-bottom: 100px;
+}
+.main1 p{
+    font-family: Raleway;
+    font-size: 54px;
+    line-height: 57.2px;
+    font-weight: 700;
+}
+.main1 p:first-of-type {
+    background-color: #FCCF3C;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 5px 8px;
+}
+.main1 p:last-of-type {
+    margin-bottom: 20px;
+}
+.main1 span {
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36.4px;
+    margin-bottom: 80px;
+    display: block;
+}
+.main1 a {
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    align-items: center;
+    background-color: #171717;
+    color: white;
+    padding: 15px 31px;
+    border-radius: 10px;
+}
+.main1 .container div:last-of-type{
+    display: none;
+}
