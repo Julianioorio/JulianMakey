@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .qqq {
+        margin-bottom: 30px;
+    }
+
+    .qqq>div {
+        width: 20%;
+        float: left;
+    }
+
+    .qqq input+br {
+        display: none;
+    }
+
+    .qqq div+br {
+        display: none;
+    }
+
+    .www {
+        width: 20%;
+        float: left;
+    }
+
+    .www+br {
+        display: none;
+    }
+    .eee {
+        font-size: 40px;
+    }
+    .rrr {
+        float: left;
+    }
+
+    @media all and (max-width: 820px) {
+        .qqq input+br {
+            display: block;
+        }
+
+        .qqq div+br {
+            display: block;
+        }
+
+        .www+br {
+            display: block;
+        }
+        .eee {
+            float: right;
+        }
+        .rrr {
+            float: none;
+        }
+    }
+</style>
+
+<body style="font-size: 30px; line-height: 45px;">
+    <form action="">
+        <p>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
+        <br>
+        <p>Название статьи:</p>
+        <div>
+            <div class="www">Рубрика:</div><br>
+            <div class="rrr"><span style="margin-right: 60px;">Програмирование</span><span class="eee">&#812;</span></div>
+            <div style="clear: both;"></div>
+        </div>
+        <div class="qqq">
+            <div>Публикация:</div><br>
+            <input type="radio" name="radio">на сайт<br>
+            <input type="radio" name="radio">в журнале<br>
+            <input type="radio" name="radio">на сайте и в журнале<br>
+            <div style="clear: both;"></div>
+        </div>
+        Разрешить коментарии:
+        <input type="checkbox" checked name="checkbox" style="margin-bottom: 100px;"><br>
+        <input type="button" value="Опубликовать" style="font-size: 30px;">
+    </form>
+</body>
+
+</html>
