@@ -52,7 +52,7 @@
     margin-right: 10px;
 }
 .main4  .container div:last-of-type  {
-   background: url(/Img/main4.png);
+   background: url(../Img/main4.png);
    background-size: cover;
    flex-basis: 600px;
 }

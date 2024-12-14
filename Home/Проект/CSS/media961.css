@@ -39,7 +39,7 @@
         flex-basis: 40%;
     }
     .main4 .container div:last-of-type {
-        background: url(/Img/main4.png) no-repeat;
+        background: url(..//Img/main4.png) no-repeat;
         background-size: cover;
         flex-basis: 47%;
     }
@@ -59,7 +59,7 @@
         font-size: 14px;
     }
     .main4 .container div:last-of-type {
-        background: url(/Img/main4.png) no-repeat;
+        background: url(..//Img/main4.png) no-repeat;
         background-size: cover;
         flex-basis: 52%;
     }

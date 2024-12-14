@@ -94,7 +94,7 @@
         flex-direction: column;
     }
     .main4 .container div:last-of-type {
-        background: url(/Img/main4.png) no-repeat;
+        background: url(..//Img/main4.png) no-repeat;
         background-size: cover;
         order: -1;
         padding: 350px;

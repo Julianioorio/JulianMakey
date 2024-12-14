@@ -1,6 +1,6 @@
 @media screen and (max-width: 728px) {
     .container {
-       width: 550px;
+       width: 650px;
     }
     .main1 .container div:last-of-type {
         display: block;
@@ -94,7 +94,7 @@
         color: white;
     }
     .main3block3 {
-        background: url(/Img/promotion.png) no-repeat;
+        background: url(..//Img/promotion.png) no-repeat;
         background-size: cover;
         background-position-x: -580px;
     }

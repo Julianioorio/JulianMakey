@@ -128,7 +128,7 @@
     }
 
     .main3block961 div:first-of-type {
-        background: url(/Img/Card1.png) no-repeat;
+        background: url(..//Img/Card1.png) no-repeat;
         flex: 0 0 70%;
         background-size: cover;
         border-radius: 8px;
@@ -146,7 +146,7 @@
     }
 
     .main3block961 div:last-of-type {
-        background: url(/Img/Card3.png) no-repeat;
+        background: url(..//Img/Card3.png) no-repeat;
         flex: 0 0 30%;
         background-size: cover;
         border-radius: 8px;
@@ -181,14 +181,14 @@
     }
 
     .main3block962 div:nth-child(1) {
-        background: url(/Img/Card2.png) no-repeat;
+        background: url(..//Img/Card2.png) no-repeat;
         background-size: cover;
         border-radius: 8px;
         margin-bottom: 20px;
     }
 
     .main3block962 div:nth-child(2) {
-        background: url(/Img/Card3.png) no-repeat;
+        background: url(..//Img/Card3.png) no-repeat;
         background-size: cover;
         border-radius: 8px;
         margin-bottom: 20px;
@@ -199,7 +199,7 @@
     }
 
     .main3block962 div:nth-child(3) {
-        background: url(/Img/Card5.png) no-repeat;
+        background: url(..//Img/Card5.png) no-repeat;
         background-size: cover;
         border-radius: 8px;
         margin-bottom: 20px;
@@ -210,7 +210,7 @@
     }
 
     .main3block3 {
-        background: url(/Img/promotion.png) no-repeat;
+        background: url(..//Img/promotion.png) no-repeat;
         background-size: cover;
     }
 
@@ -230,7 +230,7 @@
     }
 
     .main4 .container div:last-of-type {
-        background: url(/Img/main4.png) no-repeat;
+        background: url(..//Img/main4.png) no-repeat;
         background-size: contain;
         flex-basis: 50%;
     }

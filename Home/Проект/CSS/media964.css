@@ -15,7 +15,7 @@
     }
 
     .main3block3 {
-        background: url(/Img/promotion.png) no-repeat;
+        background: url(..//Img/promotion.png) no-repeat;
         background-size: cover;
         background-position-x: -349px;
     }
@@ -73,7 +73,7 @@
     }
 
     .main4 .container div:last-of-type {
-        background: url(/Img/main4.png) no-repeat;
+        background: url(..//Img/main4.png) no-repeat;
         background-size: cover;
         order: -1;
         padding: 279px;
@@ -161,7 +161,7 @@
     }
 
     .main3block760 div:nth-child(1) {
-        background: url(/Img/Card1.png) no-repeat;
+        background: url(../Img/Card1.png) no-repeat;
         background-size: cover;
         border-radius: 8px;
         margin-bottom: 20px;
@@ -179,7 +179,7 @@
     }
 
     .main3block760 div:nth-child(2) {
-        background: url(/Img/Card2.png) no-repeat;
+        background: url(../Img/Card2.png) no-repeat;
         background-size: cover;
         border-radius: 8px;
         padding: 378px 20px 20px 20px;
@@ -196,7 +196,7 @@
     }
 
     .main3block760 div:nth-child(3) {
-        background: url(/Img/Card4.png) no-repeat;
+        background: url(../Img/Card4.png) no-repeat;
         background-size: cover;
         border-radius: 8px;
         white-space: nowrap;
@@ -214,7 +214,7 @@
     }
 
     .main3block760 div:nth-child(4) {
-        background: url(/Img/Card3.png) no-repeat;
+        background: url(../Img/Card3.png) no-repeat;
         background-size: cover;
         border-radius: 8px;
         margin-bottom: 20px;
@@ -231,7 +231,7 @@
     }
 
     .main3block760 div:nth-child(5) {
-        background: url(/Img/Card5.png) no-repeat;
+        background: url(../Img/Card5.png) no-repeat;
         background-size: cover;
         border-radius: 8px;
         margin-bottom: 20px;

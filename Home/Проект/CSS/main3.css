@@ -16,7 +16,7 @@
 }
 
 .main3block1 {
-    background: url(/Img/Card1.png) no-repeat;
+    background: url(../Img/Card1.png) no-repeat;
     flex: 1 0 392px;
     position: relative;
     background-size: cover;
@@ -123,7 +123,7 @@
 
 
 .main3block3 {
-    background: url(/Img/promotion.png) no-repeat;
+    background: url(../Img/promotion.png) no-repeat;
     background-size: cover;
     padding: 40px 0px 40px 20px;
     margin-bottom: 100px;
@@ -174,6 +174,7 @@
 .main3block960 {
     display: none;
 }
+
 .main3block760 {
     display: none;
 }
