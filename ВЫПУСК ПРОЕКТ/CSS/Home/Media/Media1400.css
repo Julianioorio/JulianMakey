@@ -12,13 +12,7 @@
     }
 
     .footer .Ellipse2 {
-        position: absolute;
-        z-index: -1;
-        top: 51px;
-        left: 623px;
-        height: 721px;
-        filter: blur(40px);
-        overflow-x: hidden;
+        display: none;
     }
 }
 

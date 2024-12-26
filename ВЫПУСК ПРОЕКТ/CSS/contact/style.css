@@ -4,8 +4,8 @@
 @import "main2.css";
 @import "main3.css";
 @import "footer.css";
-@import "/CSS/contact/Media/Media1500.css";
-@import "/CSS/contact/Media/Media1250.css";
-@import "/CSS/contact/Media/Media768.css";
-@import "/CSS/contact/Media/Media425.css";
-@import "/CSS/contact/Media/Media320.css";
+@import "Media/Media1500.css";
+@import "Media/Media1250.css";
+@import "Media/Media768.css";
+@import "Media/Media425.css";
+@import "Media/Media320.css";
