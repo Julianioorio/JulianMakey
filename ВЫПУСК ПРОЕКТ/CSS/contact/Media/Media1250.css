@@ -1,0 +1,35 @@
+@media all and (max-width: 1250px) {
+    .conteiner {
+        width: 1000px;
+    }
+
+    .main1 .map img {
+        margin-right: 30px;
+        width: 800px;
+    }
+
+    .main2 h6 br {
+        display: none;
+    }
+
+    .ImageForm {
+        display: none;
+    }
+
+    .main3 {
+        padding: 56px 48px;
+        border: 1px solid #CED1D8;
+        display: inline-block;
+        position: relative;
+        background-color: white;
+        margin-bottom: 261px;
+    }
+
+    .footer {
+        padding-top: 112px;
+        padding-bottom: 58px;
+        display: grid;
+        grid-template-rows: 43px 56px 45px 147px 52px 136px;
+        grid-template-columns: 436px 378px 1fr;
+    }
+}

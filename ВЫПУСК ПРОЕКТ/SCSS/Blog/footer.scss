@@ -1,0 +1,121 @@
+$font-weight: 600;
+$font-family: Inter;
+
+.footer {
+    padding-top: 112px;
+    display: grid;
+    grid-template-rows: 49px 16px 40px 17px 76px 132px 68px 1fr 1fr;
+    grid-template-columns: 76px 360px 1fr;
+    position: relative;
+
+    h2 {
+        font-family: $font-family;
+        font-weight: $font-weight;
+        font-size: 64px;
+        color: #1D1E25;
+        grid-row: 1/2;
+        grid-column: 1/4;
+    }
+
+    h5 {
+        font-family: $font-family;
+        font-weight: $font-weight;
+        font-size: 24px;
+        color: #1D1E25;
+        grid-column: 2/4;
+        grid-row: 4/6;
+        margin-left: 24px;
+    }
+
+    p {
+        font-family: $font-family;
+        font-weight: 500;
+        font-size: 16px;
+        color: #1D1E25;
+        grid-row: 8/8;
+        grid-column: 1/3;
+    }
+
+    img:first-of-type {
+        grid-row: 4/4;
+        grid-column: 1/2;
+        margin-top: 11px;
+    }
+
+    form {
+        grid-row: 3/5;
+        justify-items: end;
+
+        input {
+            padding: 16px 44px;
+            border-radius: 30px;
+            border: none;
+            font-family: Inter;
+            font-weight: 700;
+            font-size: 16px;
+            color: white;
+            background-color: black;
+            cursor: pointer;
+        }
+    }
+
+    form+img {
+        grid-column: 1/3;
+        grid-row: 7/7;
+
+    }
+
+    .links {
+        display: flex;
+        justify-content: space-between;
+        grid-row: 7/7;
+        grid-column: 3/5;
+
+        div {
+            p:first-child {
+                font-family: $font-family;
+                font-weight: 700;
+                color: #1D1E25;
+                margin-bottom: 24px;
+            }
+
+            p {
+                font-family: $font-family;
+                font-weight: 400;
+                color: #1D1E25;
+                margin-bottom: 16px;
+            }
+        }
+    }
+
+    .Ellipse {
+        position: absolute;
+        z-index: -1;
+        top: -49px;
+        left: 50px;
+        height: 721px;
+        filter: blur(40px);
+    }
+
+    .Ellipse2 {
+        position: absolute;
+        z-index: -1;
+        top: 51px;
+        left: 750px;
+        height: 721px;
+        filter: blur(40px);
+    }
+}
+
+
+hr {
+    margin-bottom: 46px;
+}
+
+hr+p {
+    color: #AFB3BB;
+    text-align: center;
+    font-family: $font-family;
+    font-weight: 400;
+
+}

@@ -1,0 +1,30 @@
+.main3 { padding-top: 160px; padding-bottom: 160px; }
+
+.main3 h2 { font-family: Inter; font-weight: 600; font-size: 56px; color: #1D1E25; margin-bottom: 24px; }
+
+.main3 h6 { font-family: Inter; font-weight: 500; font-size: 18px; color: #7E8492; line-height: 32px; margin-bottom: 80px; }
+
+.main3 .carousel { margin: 0 auto; padding: 20px 0; max-width: 1200px; overflow: hidden; display: flex; margin-bottom: 100px; }
+
+.main3 .carousel:hover .group { animation-play-state: paused; }
+
+.main3 .carousel .group { display: flex; gap: 20px; padding-right: 20px; will-change: transform; animation: scrolling 10s linear infinite; }
+
+@keyframes scrolling { 0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); } }
+
+.main3 .card { width: 100%; border: none; padding: 20px; font-size: xx-large; min-height: 200px; }
+
+.main3 .card img { margin-bottom: 24px; }
+
+.main3 .contacts-people { display: flex; justify-content: space-between; }
+
+.main3 .contacts-people div p:first-child { font-family: Inter; font-weight: 600; font-size: 24px; color: #1D1E25; margin-bottom: 8; }
+
+.main3 .contacts-people div p:last-child { font-family: Inter; font-weight: 500; font-size: 18px; color: #7E8492; margin-bottom: 0; }
+
+.main3 .fotcaral { display: flex; justify-content: space-between; }
+
+.main3 .fotcaral div p { font-family: Inter; font-weight: 500; font-size: 18px; color: #7E8492; line-height: 32px; }
+
+.main3 .fotcaral div a { font-family: Inter; font-weight: 600; text-decoration: none; color: black; }

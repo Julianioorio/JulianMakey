@@ -1,0 +1,9 @@
+.main5 { display: flex; padding-bottom: 64px; margin-bottom: 22px; }
+
+.main5 p { font-family: Inter; font-weight: 600; font-size: 56px; color: #101010; margin-bottom: 16px; }
+
+.main5 h6 { font-family: Inter; font-weight: 500; font-size: 18px; color: #7E8492; line-height: 32px; }
+
+.main5 > div { margin-right: 30px; margin-left: 64px; }
+
+.main5 .Sponsors { display: flex; flex-direction: column; }

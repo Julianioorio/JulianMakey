@@ -1,0 +1,73 @@
+@media all and (max-width: 750px) {
+    .conteiner {
+        width: 400px;
+    }
+
+    main {
+        width: 350px;
+    }
+
+    .main h1 {
+        font-family: Inter;
+        font-weight: 700;
+        font-size: 27px;
+        margin-top: 80px;
+        margin-bottom: 48px;
+    }
+
+    .main .Renee-Wells {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 24px;
+        flex-direction: column;
+    }
+
+    .main .girl {
+        display: flex;
+        gap: 48px;
+        margin-bottom: 166px;
+        flex-direction: column;
+    }
+
+    .main .girl span {
+        display: none;
+    }
+
+    .footer {
+        padding-top: 112px;
+        padding-bottom: 58px;
+        display: grid;
+        grid-template-rows: 43px 56px 45px 147px 52px 136px;
+        grid-template-columns: 400px 0px 0fr;
+    }
+
+    .footer {
+        padding-top: 112px;
+        padding-bottom: 58px;
+        display: grid;
+        grid-template-rows: 43px 65px 140px 72px 52px 136px;
+        grid-template-columns: 400px 0px 0fr;
+    }
+
+    .footer form {
+        grid-row: 4 / 5;
+        grid-column: 1 / 2;
+    }
+
+    .footer-contacts .contacts-footer {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .footer-contacts .contacts-footer div:first-of-type {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .footer-contacts .contacts-footer div:last-of-type {
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+    }
+}

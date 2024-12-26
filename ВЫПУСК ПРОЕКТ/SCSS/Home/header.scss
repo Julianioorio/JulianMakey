@@ -1,0 +1,33 @@
+$font-weight: 600;
+$fotn-family: Inter;
+header {
+    padding-top: 26px;
+    padding-bottom: 22px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+    ul {
+        display: flex;
+        li {
+            font-family: $fotn-family;
+            font-size: 16px;
+            font-weight: 500;
+            margin-left: 32px;
+            padding-top: 21px;
+        }
+        li:last-of-type {
+            font-weight: $font-weight;
+            margin-left: 68px;
+            text-decoration: underline;
+            text-underline-offset: 6px;
+        }
+    }
+    ul {
+        list-style-type: none;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}

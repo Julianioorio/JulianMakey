@@ -1,0 +1,224 @@
+@media all and (max-width: 1020px) {
+    .conteiner {
+        width: 730px;
+    }
+
+    header ul li {
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 500;
+        margin-left: 32px;
+        padding-top: 21px;
+    }
+
+
+    .main1 {
+        display: flex;
+        padding-top: 87px;
+        padding-bottom: 141px;
+        position: relative;
+        flex-direction: column;
+    }
+
+    .main1 .creativ form input:first-of-type {
+        border: none;
+        border-bottom: solid 1px #7E8492;
+        background: none;
+        outline: none;
+        font-size: 20px;
+        padding-bottom: 23px;
+        width: 293px;
+    }
+
+    .main1 .statistics {
+        display: grid;
+        grid-template-rows: 65px 346px 29px 126px;
+        grid-auto-columns: 410px 1fr;
+    }
+
+    .main1 .creativ form {
+        grid-column: 1/5;
+    }
+
+    .main1 .creativ form input:first-of-type {
+        border: none;
+        border-bottom: solid 1px #7E8492;
+        background: none;
+        outline: none;
+        font-size: 20px;
+        padding-bottom: 23px;
+        width: 393px;
+    }
+
+    .main2 h2 {
+        font-family: Inter;
+        font-weight: 600;
+        color: white;
+        font-size: 36px;
+        grid-column: 1 / span 3;
+    }
+
+    .main2 {
+        display: grid;
+        grid-template-columns: 490px;
+        grid-template-rows: 188px 37px 81px 80px 250px 250px 250px 250px;
+    }
+
+    .main2 div:first-of-type {
+        grid-row: 5 / 6;
+        grid-column: 1/2;
+    }
+
+    .main2 .effective {
+        grid-row: 6 / 7;
+        grid-column: 1/3;
+    }
+
+    .main2 div:last-child {
+        grid-column: 1 / 2;
+    }
+
+    .main2 div:last-child {
+        grid-row: 8 / 9;
+    }
+
+    .main2 .effective1 {
+        grid-column: 9/10;
+        grid-column: 1/3;
+    }
+
+    .main3 {
+        display: flex;
+        margin-top: 160px;
+        margin-bottom: 134px;
+        flex-direction: column;
+    }
+
+    .main3 .revenue div h6 {
+        font-family: Inter;
+        font-weight: 500;
+        color: #1D1E25;
+        line-height: 32px;
+        font-size: 32px;
+    }
+
+    .main3 .statistic-total .statistic-all {
+        display: flex;
+        flex-direction: column;
+        padding: 18px;
+        position: absolute;
+        bottom: 32px;
+        right: -242px;
+    }
+
+    .main3 .revenue h6 br {
+        display: none;
+    }
+
+    .main4 .everything-done {
+        display: flex;
+        margin-bottom: 80px;
+        flex-direction: column;
+    }
+
+    .main4 .everything-done img {
+        margin: 25px 72px;
+    }
+
+    .done1 div:last-of-type+img {
+        display: none;
+    }
+
+    .done div:first-of-type {
+        margin-right: 10px;
+    }
+
+    .everything-done {
+        justify-content: space-between;
+    }
+
+    .main4 .everything-done+img {
+        margin-bottom: 80px;
+        width: 730px;
+    }
+
+    .main4 .text-business {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 160px;
+        flex-direction: column;
+    }
+
+    .main4 .text-business h2 br {
+        display: none;
+    }
+
+    .main4 .text-business h6 br {
+        display: none;
+    }
+
+    .main8 .reviews {
+        display: grid;
+        grid-template-columns: 156px 469px 1fr;
+        grid-template-rows: 64px 51px 136px 51px 1fr;
+    }
+
+    .main8 .title-reviews {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 48px;
+        flex-direction: column;
+    }
+
+    .main8 .reviews .all-reviews h3 {
+        font-family: Inter;
+        font-weight: 500;
+        font-size: 28px;
+        color: #1D1E25;
+        margin-bottom: 40px;
+    }
+
+    .footer .links {
+        display: none;
+    }
+
+    .footer {
+        padding-top: 112px;
+        display: grid;
+        grid-template-rows: 49px 16px 40px 17px 76px 132px 68px 1fr 1fr;
+        grid-template-columns: 72px 350px;
+        position: relative;
+    }
+
+    .footer h2 {
+        font-family: Inter;
+        font-weight: 600;
+        font-size: 39px;
+        color: #1D1E25;
+        grid-row: 1 / 2;
+        grid-column: 1 / 4;
+    }
+
+    .footer h5 {
+        font-family: Inter;
+        font-weight: 600;
+        font-size: 18px;
+        color: #1D1E25;
+        grid-column: 2 / 4;
+        grid-row: 4 / 6;
+        margin-left: 24px;
+    }
+
+    .footer form {
+        grid-row: 6/7;
+        grid-column: 2/3;
+    }
+
+    .footer .Ellipse2 {
+        display: none;
+    }
+
+    .footer .Ellipse {
+        display: none;
+    }
+}

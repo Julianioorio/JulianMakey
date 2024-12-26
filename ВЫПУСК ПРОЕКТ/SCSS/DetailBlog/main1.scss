@@ -1,0 +1,106 @@
+$font-weight: 600;
+$fotn-family: Inter;
+
+main {
+    width: 973px;
+    margin: 0 auto;
+}
+
+.main {
+    h1 {
+        font-family: $fotn-family;
+        font-weight: 700;
+        font-size: 72px;
+        margin-top: 80px;
+        margin-bottom: 48px;
+    }
+
+    .Renee-Wells {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 24px;
+
+        h6 {
+            font-family: $fotn-family;
+            font-weight: $font-weight;
+            font-size: 18px;
+        }
+        img {
+            margin-right: 24px;
+        }
+        &>div {
+            display: flex;
+        }
+        p {
+            font-family: $fotn-family;
+            font-weight: 500;
+            color: #848892;
+            margin-top: 4px;
+        }
+        div:last-of-type {
+            align-items: end;
+        }
+    }
+    .table {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    .table+h6 {
+        font-family: $fotn-family;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        color: #1D1E25;
+        margin-bottom: 56px;
+    }
+    h3 {
+        font-family: $fotn-family;
+        font-weight: $font-weight;
+        font-size: 40px;
+        margin-bottom: 24px;
+    }
+    h3+h6 {
+        font-family: $fotn-family;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        color: #1D1E25;
+        margin-bottom: 56px;
+    }
+    .girl {
+        display: flex;
+        gap: 48px;
+        margin-bottom: 166px;
+        div:last-of-type {
+            img {
+                margin-right: 32px;
+            }
+            img:last-of-type {
+                margin-right: 24px;
+            }
+            span {
+                font-family: $fotn-family;
+                font-weight: 500;
+                color: #1D1E25;
+            }
+            p {
+                font-family: $fotn-family;
+                font-weight: 400;
+                color: #848892;
+                margin-top: 16px;
+                margin-bottom: 16px;
+            }
+            h4 {
+                font-family: $fotn-family;
+                font-weight: $font-weight;
+                font-size: 40px;
+            }
+            h6 {
+                font-family: $fotn-family;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 32px;
+            }
+        }
+    }
+}

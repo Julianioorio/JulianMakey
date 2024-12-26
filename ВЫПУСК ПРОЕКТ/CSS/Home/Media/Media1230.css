@@ -1,0 +1,245 @@
+@media all and (max-width: 1230px) {
+    .conteiner {
+        width: 1000px;
+    }
+
+    .main1 .creativ p:first-of-type {
+        font-family: Inter;
+        font-size: 60px;
+        font-weight: 700;
+        grid-column: 1 / 6;
+        grid-row: 1 / 2;
+    }
+
+    .main1 .creativ h4 {
+        font-family: Inter;
+        font-weight: 600;
+        font-size: 27px;
+        grid-column: 2 / 6;
+        grid-row: 3 / 4;
+    }
+
+    .main1 .statistics>div:first-of-type .Customer {
+        display: none;
+    }
+
+    .main1 .statistics>div:first-of-type img:last-of-type {
+        position: absolute;
+        width: 0;
+        height: 645px;
+        top: 27px;
+        right: 38px;
+        z-index: -1;
+        overflow: hidden;
+    }
+
+    .main1 .creativ {
+        display: grid;
+        grid-template-columns: 107px 193px 175px 115px 0px;
+        grid-template-rows: 192px 114px 126px 69px 56px;
+    }
+
+    .main2 {
+        display: grid;
+        grid-template-columns: 646px 456px;
+        grid-template-rows: 188px 37px 81px 80px 250px 56px 250px;
+    }
+
+    .main1 .statistics>div:nth-child(2) {
+        background-color: black;
+        border-radius: 10px;
+        display: flex;
+        padding: 20px 29px;
+        margin-right: 0px;
+        grid-row: 4 / 5;
+    }
+
+    .main1 .statistics>div:first-of-type {
+        background-color: white;
+        box-shadow: 0px 4px 13px 0px rgba(34, 60, 80, 0.2);
+        border-radius: 5px;
+        padding: 20px;
+        grid-row: 2 / 3;
+        margin-right: 0px;
+        position: relative;
+    }
+
+    .main3 .statistic-total .statistic-all {
+        display: flex;
+        flex-direction: column;
+        padding: 18px;
+        position: absolute;
+        bottom: 55px;
+        right: -5px;
+    }
+
+    .main3 .revenue {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 418px;
+    }
+
+    .main3 .revenue h2 {
+        font-family: Inter;
+        font-weight: 600;
+        font-size: 44px;
+        margin-bottom: 24px;
+    }
+
+    .main4 .everything-done h6 {
+        font-family: Inter;
+        font-weight: 500;
+        font-size: 14px;
+        color: #7E8492;
+        line-height: 32px;
+    }
+
+    .main4 .everything-done+img {
+        margin-bottom: 80px;
+        width: 1000px;
+    }
+
+    .main5 {
+        display: flex;
+        padding-bottom: 64px;
+        margin-bottom: 22px;
+        flex-direction: column;
+    }
+
+    .main6 {
+        display: grid;
+        grid-template-rows: 188px 44px 80px 89px 273px 273px 273px 273px;
+        grid-template-columns: 637px;
+        margin-bottom: 100px;
+    }
+
+    .main6 .Teacher2 {
+        display: flex;
+        grid-row: 6 / 7;
+        grid-column: 1 / 3;
+        margin-bottom: 24px;
+    }
+
+    .main6 .Teacher4 {
+        display: flex;
+        grid-row: 8 / 9;
+        grid-column: 1 / 3;
+        margin-bottom: 24px;
+    }
+
+    .main6 .Teacher1 {
+        grid-row: 5 / 6;
+        grid-column: 1 / 3;
+        display: flex;
+        margin-bottom: 24px;
+    }
+
+    .main6 .Teacher3 {
+        grid-row: 7 / 8;
+        grid-column: 1 / 3;
+        display: flex;
+        margin-bottom: 24px;
+    }
+
+    .main6 .Teacher1 img {
+        margin-right: 16px;
+    }
+
+    .main6 .Teacher2 img {
+        margin-right: 16px;
+    }
+
+    .main6 .Teacher3 img {
+        margin-right: 16px;
+    }
+
+    .main6 .Teacher4 img {
+        margin-right: 16px;
+    }
+
+    .main6 .Teacher1 div p {
+        font-size: 23px;
+    }
+
+    .main6 .Teacher2 div p {
+        font-size: 23px;
+    }
+
+    .main6 .Teacher3 div p {
+        font-size: 23px;
+    }
+
+    .main6 .Teacher4 div p {
+        font-size: 23px;
+    }
+
+    .main8 .reviews {
+        display: grid;
+        grid-template-columns: 157px 813px 1fr;
+        grid-template-rows: 64px 51px 136px 51px 1fr;
+    }
+
+    .footer .Ellipse2 {
+        position: absolute;
+        z-index: -1;
+        top: 51px;
+        left: 444px;
+        height: 721px;
+        filter: blur(40px);
+        overflow-x: hidden;
+    }
+
+    .main3 .statistic-total .Total-income div p:last-child {
+        font-family: Inter;
+        font-size: 13px;
+        font-weight: 400;
+        color: #7E8492;
+    }
+
+    .main3 .statistic-total .Total-income div p:first-child {
+        font-family: Inter;
+        font-weight: 500;
+        font-size: 14px;
+        color: #7E8492;
+        margin-bottom: 6px;
+    }
+
+    .main3 .statistic-total .Total-Expense div p:first-child {
+        font-family: Inter;
+        font-weight: 500;
+        font-size: 14px;
+        color: #7E8492;
+        margin-bottom: 6px;
+    }
+
+    .main3 .statistic-total .Total-Expense div p:last-child {
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 400;
+        color: #7E8492;
+    }
+
+    .main5 .Sponsors div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main6 h6 {
+        font-family: Inter;
+        font-weight: 500;
+        font-size: 25px;
+        color: #7E8492;
+        line-height: 32px;
+        grid-row: 3 / 4;
+    }
+
+    .main2 {
+        display: grid;
+        grid-template-columns: 515px 456px;
+        grid-template-rows: 188px 37px 81px 80px 250px 56px 250px;
+    }
+
+    .main2>p br {
+        display: none;
+    }
+}

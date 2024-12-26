@@ -1,0 +1,33 @@
+.main3 { padding: 56px 48px; border: 1px solid #CED1D8; display: inline-block; position: relative; background-color: white; margin-bottom: 261px; }
+
+.main3 h6 { font-family: Inter; font-weight: 600; font-size: 36px; margin-bottom: 20px; }
+
+.main3 p { font-family: Inter; font-weight: 400; font-size: 18px; color: #7E8492; margin-bottom: 48px; }
+
+.main3 p a { text-decoration: none; }
+
+.main3 input { border: 1px solid #EDEDED; background: none; outline: none; padding: 10px 14px; border-radius: 8px; margin-top: 8px; }
+
+.main3 label { font-family: Inter; font-size: 14px; font-weight: 500; }
+
+.main3 label:first-of-type, .main3 label:nth-of-type(2) { display: inline-block; }
+
+.main3 label:first-of-type { margin-right: 32px; margin-bottom: 24px; }
+
+.main3 label:nth-of-type(3) { display: block; margin-bottom: 32px; }
+
+.main3 label:nth-of-type(3) input { width: 100%; }
+
+.main3 label:nth-of-type(4) { display: block; margin-bottom: 32px; }
+
+.main3 label:nth-of-type(4) input { width: 100%; }
+
+.main3 label:nth-of-type(5) { display: block; margin-bottom: 32px; }
+
+.main3 label:nth-of-type(5) input { width: 100%; }
+
+.main3 textarea { border: 1px solid #EDEDED; margin-top: 8px; border-radius: 8px; resize: none; width: 100%; height: 134px; padding: 10px 14px; }
+
+.main3 label:last-of-type + input { padding: 16px 44px; border-radius: 30px; border: none; font-family: Inter; font-weight: 700; font-size: 16px; color: white; background-color: black; cursor: pointer; }
+
+.ImageForm { position: absolute; top: 0px; right: -742px; z-index: -1; }

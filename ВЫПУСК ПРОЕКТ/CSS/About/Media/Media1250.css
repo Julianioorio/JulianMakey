@@ -1,0 +1,36 @@
+@media all and (max-width: 1250px) {
+    .conteiner {
+        width: 1000px;
+    }
+
+    .main1 .title-about img:last-of-type {
+        grid-row: 3 / 4;
+        grid-column: 2 / 3;
+        justify-self: end;
+    }
+
+    .main1 .title-about {
+        display: grid;
+        grid-template-rows: 227px 145px 154px 46px;
+        grid-template-columns: 77px 923px 1fr;
+        margin-bottom: 135px;
+    }
+
+    .main1 .CoffiWork img {
+        width: 450px;
+        margin-right: 32px;
+    }
+
+    .footer form {
+        grid-column: 2/3;
+        justify-self: end;
+    }
+
+    .footer {
+        padding-top: 112px;
+        padding-bottom: 58px;
+        display: grid;
+        grid-template-rows: 43px 56px 45px 147px 52px 136px;
+        grid-template-columns: 411px 587px 1fr;
+    }
+}

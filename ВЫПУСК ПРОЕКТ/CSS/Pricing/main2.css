@@ -1,0 +1,19 @@
+.main2 { padding-top: 82px; padding-bottom: 160px; }
+
+.main2 h2 { font-family: Inter; font-weight: 600; font-size: 56px; text-align: center; margin-bottom: 24px; }
+
+.main2 h6 { font-family: Inter; font-weight: 500; font-size: 18px; color: #7E8492; text-align: center; margin-bottom: 80px; }
+
+.main2 h5 { font-family: Inter; font-weight: 500; font-size: 18px; color: #7E8492; line-height: 32px; text-align: left; }
+
+.main2 .option1, .main2 .option2, .main2 .option3, .main2 .option4, .main2 .option5 { display: none; }
+
+.main2 .non1, .main2 .non2, .main2 .non3, .main2 .non4, .main2 .non5 { display: none; }
+
+.main2 .show { display: block; }
+
+.main2 div { display: flex; justify-content: space-between; }
+
+.main2 div p { font-family: Inter; font-weight: 600; font-size: 24px; }
+
+.main2 div button { padding: 0; border: none; font: inherit; color: inherit; background-color: transparent; cursor: pointer; }

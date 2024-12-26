@@ -1,0 +1,38 @@
+@media all and (max-width: 420px) {
+    .conteiner {
+        width: 300px;
+    }
+
+    main {
+        width: 270px;
+    }
+
+    .main h1 {
+        font-family: Inter;
+        font-weight: 700;
+        font-size: 21px;
+        margin-top: 80px;
+        margin-bottom: 48px;
+    }
+
+    .main .Renee-Wells img {
+        margin-right: 24px;
+        width: 124px;
+    }
+
+    .footer {
+        padding-top: 112px;
+        padding-bottom: 58px;
+        display: grid;
+        grid-template-rows: 43px 65px 140px 72px 52px 136px;
+        grid-template-columns: 300px 0px 0fr;
+    }
+    .footer h2 {
+        font-family: Inter;
+        font-weight: 600;
+        font-size: 34px;
+        color: white;
+        grid-row: 1 / 2;
+        grid-column: 1 / 3;
+    }
+}

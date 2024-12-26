@@ -1,0 +1,37 @@
+main { width: 973px; margin: 0 auto; }
+
+.main h1 { font-family: Inter; font-weight: 700; font-size: 72px; margin-top: 80px; margin-bottom: 48px; }
+
+.main .Renee-Wells { display: flex; justify-content: space-between; margin-bottom: 24px; }
+
+.main .Renee-Wells h6 { font-family: Inter; font-weight: 600; font-size: 18px; }
+
+.main .Renee-Wells img { margin-right: 24px; }
+
+.main .Renee-Wells > div { display: flex; }
+
+.main .Renee-Wells p { font-family: Inter; font-weight: 500; color: #848892; margin-top: 4px; }
+
+.main .Renee-Wells div:last-of-type { align-items: end; }
+
+.main .table { width: 100%; margin-bottom: 80px; }
+
+.main .table + h6 { font-family: Inter; font-weight: 400; font-size: 18px; line-height: 32px; color: #1D1E25; margin-bottom: 56px; }
+
+.main h3 { font-family: Inter; font-weight: 600; font-size: 40px; margin-bottom: 24px; }
+
+.main h3 + h6 { font-family: Inter; font-weight: 400; font-size: 18px; line-height: 32px; color: #1D1E25; margin-bottom: 56px; }
+
+.main .girl { display: flex; gap: 48px; margin-bottom: 166px; }
+
+.main .girl div:last-of-type img { margin-right: 32px; }
+
+.main .girl div:last-of-type img:last-of-type { margin-right: 24px; }
+
+.main .girl div:last-of-type span { font-family: Inter; font-weight: 500; color: #1D1E25; }
+
+.main .girl div:last-of-type p { font-family: Inter; font-weight: 400; color: #848892; margin-top: 16px; margin-bottom: 16px; }
+
+.main .girl div:last-of-type h4 { font-family: Inter; font-weight: 600; font-size: 40px; }
+
+.main .girl div:last-of-type h6 { font-family: Inter; font-weight: 400; font-size: 18px; line-height: 32px; }

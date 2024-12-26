@@ -1,0 +1,13 @@
+.main3 { padding-top: 160px; padding-bottom: 220px; }
+
+.main3 h2 { font-family: Inter; font-weight: 600; font-size: 52px; margin-bottom: 24px; }
+
+.main3 h6 { font-family: Inter; font-weight: 500; font-size: 18px; color: #7E8492; line-height: 32px; margin-bottom: 80px; }
+
+.main3 .Articles { display: flex; gap: 32px; }
+
+.main3 .Articles input { padding: 16px 44px; border-radius: 30px; border: 1px solid #CED1D8; font-family: Inter; font-weight: 700; font-size: 16px; color: black; background-color: white; cursor: pointer; }
+
+.main3 .Articles h4 { margin-top: 24px; margin-bottom: 16px; font-family: Inter; font-weight: 600; font-size: 32px; line-height: 42px; }
+
+.main3 .Articles h6 { font-family: Inter; font-weight: 500; font-size: 18px; color: #7E8492; line-height: 32px; margin-bottom: 24px; }

@@ -1,0 +1,119 @@
+$font-weight: 600;
+$font-family: Inter;
+
+.main6 {
+    display: grid;
+    grid-template-rows: 188px 44px 80px 89px 273px 56px 273px;
+    grid-template-columns: 637px 1fr;
+    margin-bottom: 100px;
+
+    h2 {
+        font-family: $font-family;
+        font-weight: $font-weight;
+        font-size: 56px;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    h6 {
+        font-family: $font-family;
+        font-weight: 500;
+        font-size: 18px;
+        color: #7E8492;
+        line-height: 32px;
+        grid-row: 3/4;
+    }
+
+    .Teacher1 {
+        grid-row: 5/6;
+        grid-column: 1/2;
+        display: flex;
+        img {
+            margin-right: 60px;
+        }
+        div {
+            h4 {
+                font-family: $font-family;
+                font-weight: $font-weight;
+                font-size: 32px;
+                color: #1D1E25;
+                margin-bottom: 24px;
+            }
+            p {
+                font-family: $font-family;
+                font-weight: 500;
+                line-height: 26px;
+                color: #7E8492;
+            }
+        }
+    }
+    .Teacher2 {
+        grid-row: 5/6;
+        grid-column: 2/3;
+        display: flex;
+        img {
+            margin-right: 59px;
+        }
+        div {
+            h4 {
+                font-family: $font-family;
+                font-weight: $font-weight;
+                font-size: 32px;
+                color: #1D1E25;
+                margin-bottom: 24px;
+            }
+            p {
+                font-family: $font-family;
+                font-weight: 500;
+                line-height: 26px;
+                color: #7E8492;
+            }
+        }
+    }
+    .Teacher3 {
+        grid-row: 7/8;
+        grid-column: 1/2;
+        display: flex;
+        img {
+            margin-right: 60px;
+        }
+        div {
+            h4 {
+                font-family: $font-family;
+                font-weight: $font-weight;
+                font-size: 32px;
+                color: #1D1E25;
+                margin-bottom: 24px;
+            }
+            p {
+                font-family: $font-family;
+                font-weight: 500;
+                line-height: 26px;
+                color: #7E8492;
+            }
+        }
+    }
+    .Teacher4 {
+        grid-row: 7/8;
+        grid-column: 2/3;
+        display: flex;
+        img {
+            margin-right: 60px;
+        }
+        div {
+            h4 {
+                font-family: $font-family;
+                font-weight: $font-weight;
+                font-size: 32px;
+                color: #1D1E25;
+                margin-bottom: 24px;
+            }
+            p {
+                font-family: $font-family;
+                font-weight: 500;
+                line-height: 26px;
+                color: #7E8492;
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+@media all and (max-width: 1050px) {
+    .conteiner {
+        width: 730px;
+    }
+
+    .main1 .title-blog p br {
+        display: none;
+    }
+
+    .main3 .Articles {
+        display: flex;
+        gap: 32px;
+        flex-direction: column;
+    }
+
+    .footer .links {
+        display: none;
+    }
+
+    .footer {
+        padding-top: 112px;
+        display: grid;
+        grid-template-rows: 66px 0px 95px 0px 147px 100px 59px 0fr 0fr;
+        grid-template-columns: 76px 360px 1fr;
+        position: relative;
+    }
+
+    .footer form {
+        grid-row: 6 / 7;
+        grid-column: 1 / 2;
+        justify-items: end;
+    }
+}

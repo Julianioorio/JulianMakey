@@ -1,0 +1,314 @@
+@media all and (max-width: 740px) {
+    .conteiner {
+        width: 400px;
+    }
+
+    .main1 .creativ p:first-of-type {
+        font-family: Inter;
+        font-size: 37px;
+        font-weight: 700;
+        grid-column: 1 / 6;
+        grid-row: 1 / 2;
+    }
+
+    .main1>img:first-of-type {
+        position: absolute;
+        top: -30px;
+        left: -22px;
+        z-index: -1;
+        width: 318px;
+        height: 651px;
+    }
+
+    .main1 .creativ {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 114px 126px;
+    }
+
+    .main1 .creativ h4 {
+        font-family: Inter;
+        font-weight: 600;
+        font-size: 17px;
+        grid-column: 2 / 6;
+        grid-row: 2 / 4;
+    }
+
+    .main2 h2 {
+        font-size: 28px;
+    }
+
+    .main2>p {
+        grid-row: 2 / 4;
+    }
+
+    .main2 div p br {
+        display: none;
+    }
+
+    .main2 div h4 {
+        font-family: Inter;
+        font-weight: 600;
+        color: white;
+        margin-bottom: 24px;
+        font-size: 24px;
+    }
+
+    .main2 {
+        display: grid;
+        grid-template-columns: 324px;
+        grid-template-rows: 188px 37px 81px 80px 250px 250px 250px 250px;
+    }
+
+    .main1 .creativ img {
+        grid-column: 1 / 2;
+        grid-row: 2 / 2;
+        margin-top: 22px;
+    }
+
+    .main1 .creativ form {
+        grid-column: 1 / 4;
+        grid-row: 3 / 4;
+    }
+
+    .main1 .creativ form input:first-of-type {
+        border: none;
+        border-bottom: solid 1px #7E8492;
+        background: none;
+        outline: none;
+        font-size: 20px;
+        padding-bottom: 23px;
+        width: 232px;
+    }
+
+    .main3 .statistic-total>img {
+        width: 400px;
+    }
+
+    .main3 .statistic-total .statistic-all {
+        display: none;
+    }
+
+    .main3 .revenue h2 {
+        font-family: Inter;
+        font-weight: 600;
+        font-size: 28px;
+        margin-bottom: 24px;
+    }
+
+    .main3 .statistic-total {
+        width: 298px;
+        background-size: cover;
+        flex-basis: 400px;
+        margin-right: 58px;
+        position: relative;
+    }
+
+    .main3 .revenue h6 {
+        color: #7E8492;
+        font-family: Inter;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 32px;
+        margin-bottom: 40px;
+    }
+
+    .main3 .revenue div h6 {
+        font-family: Inter;
+        font-weight: 500;
+        color: #1D1E25;
+        line-height: 32px;
+        font-size: 16px;
+    }
+
+    .main4 .everything-done h6 {
+        font-size: 11px;
+    }
+
+    .main4 .everything-done h2 {
+        font-size: 50px;
+    }
+
+    .main4 .everything-done .done1 {
+        display: flex;
+        margin-right: 35px;
+    }
+
+    .main4 .everything-done+img {
+        margin-bottom: 80px;
+        width: 400px;
+    }
+
+    .main4 .text-business h2 {
+        font-family: Inter;
+        font-weight: 600;
+        font-size: 30px;
+        color: #1D1E25;
+    }
+
+    .main4 .text-business h6 {
+        font-family: Inter;
+        font-weight: 500;
+        font-size: 14px;
+        color: #7E8492;
+        line-height: 32px;
+    }
+
+    .main4 .text-business {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 71px;
+        flex-direction: column;
+    }
+
+    .main5 .Sponsors {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .main5 .Sponsors div {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .main6 {
+        display: grid;
+        grid-template-rows: 128px 44px 80px 89px 273px 273px 273px 273px;
+        grid-template-columns: 400px;
+        margin-bottom: 100px;
+    }
+
+    .main6 h2 {
+        font-family: Inter;
+        font-weight: 600;
+        font-size: 28px;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .main6 h6 br {
+        display: none;
+    }
+
+    .main6 h6 {
+        font-family: Inter;
+        font-weight: 500;
+        font-size: 21px;
+        color: #7E8492;
+        line-height: 32px;
+        grid-row: 2 / 4;
+    }
+
+    .main6 .Teacher1 div h4 {
+        font-size: 20px;
+    }
+
+    .main6 .Teacher2 div h4 {
+        font-size: 20px;
+    }
+
+    .main6 .Teacher3 div h4 {
+        font-size: 20px;
+    }
+
+    .main6 .Teacher4 div h4 {
+        font-size: 20px;
+    }
+
+    .main6 .Teacher1 div p {
+        font-size: 10px;
+    }
+
+    .main6 .Teacher2 div p {
+        font-size: 10px;
+    }
+
+    .main6 .Teacher3 div p {
+        font-size: 10px;
+    }
+
+    .main6 .Teacher4 div p {
+        font-size: 10px;
+    }
+
+    .main8 .title-reviews h2 {
+        font-size: 41px;
+    }
+
+    .main6 {
+        margin-bottom: 0px;
+    }
+
+    .main7 {
+        padding-top: 60px;
+        padding-bottom: 0px;
+    }
+
+    .main8 .reviews .all-reviews h3 {
+        font-family: Inter;
+        font-weight: 500;
+        font-size: 12px;
+        color: #1D1E25;
+        margin-bottom: 40px;
+    }
+
+    .main8 .title-reviews+img {
+        width: 50px;
+    }
+
+    .main8 .reviews {
+        display: grid;
+        grid-template-columns: 64px 333px 1fr;
+        grid-template-rows: 86px 34px 64px 0px;
+    }
+
+    .main8 {
+        padding-top: 69px;
+        padding-bottom: 0px;
+    }
+
+    .footer {
+        padding-top: 71px;
+        display: grid;
+        grid-template-rows: 49px 16px 40px 17px 76px 132px 68px 1fr 1fr;
+        grid-template-columns: 76px 322px 1fr;
+        position: relative;
+    }
+
+    .footer h5 {
+        font-family: Inter;
+        font-weight: 600;
+        font-size: 12px;
+        color: #1D1E25;
+        grid-column: 2 / 4;
+        grid-row: 4 / 6;
+        margin-left: 24px;
+    }
+    .main1 .creativ form {
+        grid-column: 1/6;
+    }
+
+
+
+    .main1 .creativ p:first-of-type {
+        font-family: Inter;
+        font-size: 28px;
+        font-weight: 700;
+        grid-column: 1 / 6;
+    }
+
+    .main1 .creativ form input:first-of-type {
+        border: none;
+        border-bottom: solid 1px #7E8492;
+        background: none;
+        outline: none;
+        font-size: 20px;
+        padding-bottom: 23px;
+        width: 164px;
+    }
+
+    .footer .Ellipse {
+        display: none;
+    }
+}

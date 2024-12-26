@@ -1,0 +1,40 @@
+$font-weight: 600;
+$font-family: Inter;
+
+.main2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    position: relative;
+
+    h2 {
+        font-family: $font-family;
+        font-weight: $font-weight;
+        font-size: 56px;
+        color: #1D1E25;
+    }
+
+    p {
+        font-family: $font-family;
+        font-weight: $font-weight;
+        font-size: 24px;
+        color: #1D1E25;
+    }
+
+    .Ellipse {
+        position: absolute;
+        top: -580px;
+        left: -150px;
+        z-index: -1;
+        filter: blur(40px);
+    }
+
+    .Ellipse2 {
+        z-index: -1;
+        position: absolute;
+        filter: blur(40px);
+        top: 350px;
+        left: 650px;
+    }
+}

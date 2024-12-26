@@ -1,0 +1,23 @@
+.main8 { padding-top: 69px; padding-bottom: 160px; }
+
+.main8 .title-reviews { display: flex; justify-content: space-between; margin-bottom: 48px; }
+
+.main8 .title-reviews h2 { font-family: Inter; font-weight: 600; font-size: 56px; color: #1D1E25; }
+
+.main8 .title-reviews h6 { font-family: Inter; font-weight: 500; font-size: 18px; line-height: 32px; color: #7E8492; margin-top: 35px; }
+
+.main8 .reviews { display: grid; grid-template-columns: 157px 898px 1fr; grid-template-rows: 64px 51px 136px 51px 1fr; }
+
+.main8 .reviews .all-reviews { grid-column: 2/3; grid-row: 1/4; }
+
+.main8 .reviews .all-reviews img { margin-bottom: 16px; }
+
+.main8 .reviews .all-reviews h3 { font-family: Inter; font-weight: 500; font-size: 40px; color: #1D1E25; margin-bottom: 40px; }
+
+.main8 .reviews .all-reviews > div { display: flex; }
+
+.main8 .reviews .all-reviews > div h6 { font-family: Inter; font-weight: 600; color: #1D1E25; font-size: 18px; }
+
+.main8 .reviews .all-reviews > div p { font-family: Inter; font-weight: 500; color: #7E8492; font-size: 16px; }
+
+.main8 .reviews .all-reviews > div img { margin-right: 24px; }

@@ -1,0 +1,15 @@
+.main1 { padding-top: 90px; padding-bottom: 85px; }
+
+.main1 h1 { font-family: Inter; font-weight: 700; font-size: 72px; margin-bottom: 100px; }
+
+.main1 .map { display: flex; justify-content: space-between; }
+
+.main1 .map img { margin-right: 30px; }
+
+.main1 .contact-map h5 { font-family: Inter; font-weight: 700; font-size: 24px; margin-bottom: 8px; }
+
+.main1 .contact-map p:first-of-type { font-family: Inter; font-weight: 400; color: #7E8492; line-height: 24px; margin-bottom: 20px; }
+
+.main1 .contact-map p:last-of-type { font-family: Inter; font-weight: 500; margin-bottom: 14px; }
+
+.main1 .contact-map hr { margin-bottom: 40px; }

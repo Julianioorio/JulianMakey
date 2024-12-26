@@ -1,0 +1,9 @@
+.main2 { display: flex; justify-content: space-between; padding-top: 80px; padding-bottom: 80px; position: relative; }
+
+.main2 h2 { font-family: Inter; font-weight: 600; font-size: 56px; color: #1D1E25; }
+
+.main2 p { font-family: Inter; font-weight: 600; font-size: 24px; color: #1D1E25; }
+
+.main2 .Ellipse { position: absolute; top: -580px; left: -150px; z-index: -1; filter: blur(40px); }
+
+.main2 .Ellipse2 { z-index: -1; position: absolute; filter: blur(40px); top: 350px; left: 650px; }

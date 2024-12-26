@@ -1,0 +1,50 @@
+.main1 { padding-top: 91px; position: relative; }
+
+.main1 h1 { margin-bottom: 52px; font-family: Inter; font-weight: 700; font-size: 72px; }
+
+.main1 .title-blog { display: flex; margin-bottom: 128px; }
+
+.main1 .title-blog img { margin-right: 24px; vertical-align: top; margin-bottom: auto; margin-top: 25px; }
+
+.main1 .title-blog p { font-family: Inter; font-weight: 600; font-size: 32px; line-height: 42px; }
+
+.main1 .links-blog { margin-bottom: 80px; }
+
+.main1 .links-blog ul { list-style-type: none; }
+
+.main1 .links-blog ul { display: flex; }
+
+.main1 .links-blog ul li { padding: 10px 14px; margin-right: 16px; font-family: Inter; font-weight: 500; }
+
+.main1 .links-blog ul li a { text-decoration: none; color: #7E8492; }
+
+.main1 .links-blog ul li:first-of-type a { font-family: Inter; font-size: 16px; font-weight: 600; text-decoration: underline; text-underline-offset: 4px; color: black; }
+
+.main1 .carousel { margin: 0 auto; padding: 20px 0; max-width: 1200px; overflow: hidden; display: flex; margin-bottom: 100px; }
+
+.main1 .carousel:hover .group { animation-play-state: paused; }
+
+.main1 .carousel .group { display: flex; gap: 20px; padding-right: 20px; will-change: transform; animation: scrolling 10s linear infinite; }
+
+@keyframes scrolling { 0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); } }
+
+.main1 .card { width: 100%; border: none; padding: 20px; font-size: xx-large; min-height: 200px; }
+
+.main1 .card img { margin-bottom: 24px; }
+
+.main1 .contacts-people { display: flex; justify-content: space-between; }
+
+.main1 .contacts-people div p:first-child { font-family: Inter; font-weight: 600; font-size: 24px; color: #1D1E25; margin-bottom: 8; }
+
+.main1 .contacts-people div p:last-child { font-family: Inter; font-weight: 500; font-size: 18px; color: #7E8492; margin-bottom: 0; }
+
+.main1 .fotcaral { display: flex; justify-content: space-between; }
+
+.main1 .fotcaral div p { font-family: Inter; font-weight: 500; font-size: 18px; color: #7E8492; line-height: 32px; }
+
+.main1 .fotcaral div a { font-family: Inter; font-weight: 600; text-decoration: none; color: black; }
+
+.main1 .Ellipse { position: absolute; top: 150px; left: 550px; filter: blur(40px); z-index: -1; }
+
+.main1 .Ellipse2 { position: absolute; top: -50px; left: -50px; filter: blur(40px); z-index: -1; }

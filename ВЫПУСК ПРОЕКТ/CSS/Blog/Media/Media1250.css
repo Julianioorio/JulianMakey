@@ -1,0 +1,16 @@
+@media all and (max-width: 1250px) {
+    .conteiner {
+        width: 1000px;
+    }
+
+    .main2 {
+        padding-top: 120px;
+        padding-bottom: 120px;
+        display: flex;
+        gap: 32px;
+        flex-direction: column;
+    }
+    .main2 div h6:first-of-type {
+        margin-bottom: 100px;
+    }
+}

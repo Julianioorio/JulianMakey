@@ -1,0 +1,14 @@
+@media all and (max-width: 1500px)  {
+    .main1 .Ellipse {
+        display: none;
+    }
+    .Articles div:nth-child(3) {
+        display: none;
+    }
+    .Articles {
+        justify-content: space-around;
+    }
+    .footer .Ellipse2 {
+       display: none;
+    }
+}

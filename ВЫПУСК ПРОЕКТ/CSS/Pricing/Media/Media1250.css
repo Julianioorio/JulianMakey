@@ -1,0 +1,21 @@
+@media all and (max-width: 1250px) {
+    .conteiner {
+        width: 1000px;
+    }
+
+    .main1 .Pricing-plans .Ellipse2 {
+        display: none;
+    }
+
+    .main1 .Pricing-plans .Ellipse {
+        display: none;
+    }
+
+    .footer {
+        padding-top: 112px;
+        padding-bottom: 58px;
+        display: grid;
+        grid-template-rows: 43px 56px 45px 147px 52px 136px;
+        grid-template-columns: 288px 543px 1fr;
+    }
+}

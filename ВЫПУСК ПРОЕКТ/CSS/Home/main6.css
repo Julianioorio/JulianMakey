@@ -1,0 +1,37 @@
+.main6 { display: grid; grid-template-rows: 188px 44px 80px 89px 273px 56px 273px; grid-template-columns: 637px 1fr; margin-bottom: 100px; }
+
+.main6 h2 { font-family: Inter; font-weight: 600; font-size: 56px; grid-column: 1/2; grid-row: 1/2; }
+
+.main6 h6 { font-family: Inter; font-weight: 500; font-size: 18px; color: #7E8492; line-height: 32px; grid-row: 3/4; }
+
+.main6 .Teacher1 { grid-row: 5/6; grid-column: 1/2; display: flex; }
+
+.main6 .Teacher1 img { margin-right: 60px; }
+
+.main6 .Teacher1 div h4 { font-family: Inter; font-weight: 600; font-size: 32px; color: #1D1E25; margin-bottom: 24px; }
+
+.main6 .Teacher1 div p { font-family: Inter; font-weight: 500; line-height: 26px; color: #7E8492; }
+
+.main6 .Teacher2 { grid-row: 5/6; grid-column: 2/3; display: flex; }
+
+.main6 .Teacher2 img { margin-right: 59px; }
+
+.main6 .Teacher2 div h4 { font-family: Inter; font-weight: 600; font-size: 32px; color: #1D1E25; margin-bottom: 24px; }
+
+.main6 .Teacher2 div p { font-family: Inter; font-weight: 500; line-height: 26px; color: #7E8492; }
+
+.main6 .Teacher3 { grid-row: 7/8; grid-column: 1/2; display: flex; }
+
+.main6 .Teacher3 img { margin-right: 60px; }
+
+.main6 .Teacher3 div h4 { font-family: Inter; font-weight: 600; font-size: 32px; color: #1D1E25; margin-bottom: 24px; }
+
+.main6 .Teacher3 div p { font-family: Inter; font-weight: 500; line-height: 26px; color: #7E8492; }
+
+.main6 .Teacher4 { grid-row: 7/8; grid-column: 2/3; display: flex; }
+
+.main6 .Teacher4 img { margin-right: 60px; }
+
+.main6 .Teacher4 div h4 { font-family: Inter; font-weight: 600; font-size: 32px; color: #1D1E25; margin-bottom: 24px; }
+
+.main6 .Teacher4 div p { font-family: Inter; font-weight: 500; line-height: 26px; color: #7E8492; }

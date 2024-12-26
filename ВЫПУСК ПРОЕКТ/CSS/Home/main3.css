@@ -1,0 +1,57 @@
+.main3 { display: flex; margin-top: 160px; margin-bottom: 134px; }
+
+.main3 .statistic-total { width: 298px; background-size: cover; flex-basis: 585px; margin-right: 58px; position: relative; }
+
+.main3 .statistic-total > div { background-color: white; }
+
+.main3 .statistic-total .statistic-all { display: flex; flex-direction: column; padding: 18px; position: absolute; bottom: 60px; right: 35px; }
+
+.main3 .statistic-total .statistic-more { display: flex; justify-content: space-between; margin-bottom: 19px; }
+
+.main3 .statistic-total .statistic-more p { font-family: Inter; font-weight: 600; font-size: 16px; }
+
+.main3 .statistic-total .Total-income { border-bottom: 1px solid #EDEDED; display: flex; padding-bottom: 23px; }
+
+.main3 .statistic-total .Total-income img { margin-right: 26px; }
+
+.main3 .statistic-total .Total-income div { display: flex; flex-direction: column; }
+
+.main3 .statistic-total .Total-income div p:first-child { font-family: Inter; font-weight: 500; font-size: 10px; color: #7E8492; margin-bottom: 6px; }
+
+.main3 .statistic-total .Total-income div img { margin-right: 4px; padding: 2px; }
+
+.main3 .statistic-total .Total-income div .dol { font-family: Inter; font-weight: 700; color: #1D1E25; margin-right: 12px; }
+
+.main3 .statistic-total .Total-income div .Percentage { font-family: Inter; color: #1D1E25; }
+
+.main3 .statistic-total .Total-income div p:last-child { font-family: Inter; font-size: 9px; font-weight: 400; color: #7E8492; }
+
+.main3 .statistic-total .Total-income div span { margin-bottom: 9px; }
+
+.main3 .statistic-total .Total-Expense { display: flex; margin-top: 26px; }
+
+.main3 .statistic-total .Total-Expense img { margin-right: 26px; }
+
+.main3 .statistic-total .Total-Expense div { display: flex; flex-direction: column; }
+
+.main3 .statistic-total .Total-Expense div p:first-child { font-family: Inter; font-weight: 500; font-size: 10px; color: #7E8492; margin-bottom: 6px; }
+
+.main3 .statistic-total .Total-Expense div img { margin-right: 1px; vertical-align: middle; }
+
+.main3 .statistic-total .Total-Expense div .dol { font-family: Inter; font-weight: 700; color: #1D1E25; margin-right: 12px; }
+
+.main3 .statistic-total .Total-Expense div .Percentage { font-family: Inter; color: #1D1E25; }
+
+.main3 .statistic-total .Total-Expense div p:last-child { font-family: Inter; font-size: 9px; font-weight: 400; color: #7E8492; }
+
+.main3 .statistic-total .Total-Expense div span { margin-bottom: 9px; }
+
+.main3 .revenue { display: flex; flex-direction: column; flex-basis: 557px; }
+
+.main3 .revenue h2 { font-family: Inter; font-weight: 600; font-size: 56px; margin-bottom: 24px; }
+
+.main3 .revenue h6 { color: #7E8492; font-family: Inter; font-weight: 500; font-size: 18px; line-height: 32px; margin-bottom: 40px; }
+
+.main3 .revenue div img { vertical-align: middle; margin-right: 23px; height: 100%; float: left; margin-top: 20px; margin-bottom: 20px; }
+
+.main3 .revenue div h6 { font-family: Inter; font-weight: 500; color: #1D1E25; line-height: 32px; font-size: 18px; }

@@ -1,0 +1,77 @@
+.main1 { padding-top: 91px; }
+
+.main1 .Pricing-plans { text-align: center; margin-bottom: 122px; position: relative; }
+
+.main1 .Pricing-plans .Ellipse, .main1 .Pricing-plans .Ellipse2 { position: absolute; z-index: -1; }
+
+.main1 .Pricing-plans .Ellipse { top: 50px; top: -189px; left: -188px; filter: blur(40px); }
+
+.main1 .Pricing-plans .Ellipse2 { top: -150px; left: 550px; filter: blur(40px); }
+
+.main1 .Pricing-plans span { padding: 4px 12px; background-color: rgba(20, 99, 255, 0.1); color: #1463FF; font-family: Inter; font-weight: 600; font-size: 16px; border-radius: 16px; }
+
+.main1 .Pricing-plans h1 { font-family: Inter; font-weight: 700; font-size: 72px; text-align: center; line-height: 120%; margin-top: 24px; margin-bottom: 56px; }
+
+.main1 .Pricing-plans .switch { position: relative; display: inline-block; width: 60px; height: 34px; }
+
+.main1 .Pricing-plans .slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #ccc; -webkit-transition: .4s; transition: .4s; }
+
+.main1 .Pricing-plans .slider:before { position: absolute; content: ""; height: 26px; width: 26px; left: 4px; bottom: 4px; background-color: white; -webkit-transition: .4s; transition: .4s; }
+
+.main1 .Pricing-plans input:checked + .slider { background-color: #2196F3; }
+
+.main1 .Pricing-plans input:checked + .slider:before { transform: translateX(26px); }
+
+.main1 .Pricing-plans .slider.round { border-radius: 34px; }
+
+.main1 .Pricing-plans .slider.round:before { border-radius: 50%; }
+
+.main1 .Pricing-plans label + span { font-family: Inter; font-weight: 500; color: #7E8492; background-color: white; font-size: 20px; vertical-align: middle; }
+
+.main1 .business-plan { display: flex; justify-content: space-between; padding-bottom: 128px; }
+
+.main1 .business-plan div { padding: 40px 24px; border: 1px solid #EDEDED; border-radius: 20px; position: relative; top: 50px; }
+
+.main1 .business-plan div h5 { font-family: Inter; font-weight: 600; font-size: 24px; margin-top: 16px; margin-bottom: 8px; }
+
+.main1 .business-plan div h5 + p { font-family: Inter; font-weight: 500; color: #7E8492; margin-bottom: 24px; }
+
+.main1 .business-plan div h2 { font-family: Inter; font-weight: 600; font-size: 56px; margin-bottom: 24px; }
+
+.main1 .business-plan div h2 span { font-weight: 500; font-size: 16px; color: #7E8492; }
+
+.main1 .business-plan div ul { list-style-type: none; padding-left: 0; margin-bottom: 40px; }
+
+.main1 .business-plan div ul li { margin-bottom: 16px; font-family: Inter; font-weight: 500; }
+
+.main1 .business-plan div ul li img { margin-right: 8px; }
+
+.main1 .business-plan div ul li:nth-of-type(5) ~ li { text-decoration: line-through; color: #7E8492; }
+
+.main1 .business-plan div ul li:first-of-type { font-family: Inter; font-weight: 700; }
+
+.main1 .business-plan div form { text-align: center; }
+
+.main1 .business-plan div input { border: 1px solid #CED1D8; padding: 16px 44px; border-radius: 30px; font-family: Inter; font-weight: 700; font-size: 16px; color: black; background-color: white; cursor: pointer; }
+
+.main1 .business-plan div:nth-of-type(2) > span { padding: 6px 12px; background-color: #1463FF; border-radius: 21px; color: white; position: relative; left: 150px; }
+
+.main1 .business-plan div:nth-of-type(3) li:nth-of-type(5) ~ li { text-decoration: none; color: black; }
+
+.main1 .business-plan div:nth-of-type(2) li:nth-of-type(7) { text-decoration: none; color: black; }
+
+.main1 .business-plan div:hover { transition-duration: 2s; background-color: #161A34; margin-top: -50px; margin-bottom: 50px; }
+
+.main1 .business-plan div:hover h2 { color: white; }
+
+.main1 .business-plan div:hover h5 { color: white; }
+
+.main1 .business-plan div:hover ul li { color: white; }
+
+.main1 .business-plan div:hover h2 span { color: white; }
+
+.main1 .business-plan div:nth-of-type(2):hover { transition-duration: 2s; background-color: #161A34; }
+
+.main1 .business-plan div:nth-of-type(2):hover li:nth-of-type(7) { text-decoration: none; color: white; }
+
+.main1 .business-plan div:nth-of-type(3):hover li:nth-of-type(5) ~ li { color: white; }

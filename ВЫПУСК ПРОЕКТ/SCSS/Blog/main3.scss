@@ -1,0 +1,58 @@
+$font-weight: 600;
+$font-family: Inter;
+
+.main3 {
+    padding-top: 160px;
+    padding-bottom: 220px;
+
+    h2 {
+        font-family: $font-family;
+        font-weight: $font-weight;
+        font-size: 52px;
+        margin-bottom: 24px;
+    }
+
+    h6 {
+        font-family: $font-family;
+        font-weight: 500;
+        font-size: 18px;
+        color: #7E8492;
+        line-height: 32px;
+        margin-bottom: 80px;
+    }
+
+    .Articles {
+        display: flex;
+        gap: 32px;
+
+        input {
+            padding: 16px 44px;
+            border-radius: 30px;
+            border: 1px solid #CED1D8;
+            font-family: Inter;
+            font-weight: 700;
+            font-size: 16px;
+            color: black;
+            background-color: white;
+            cursor: pointer;
+        }
+
+        h4 {
+            margin-top: 24px;
+            margin-bottom: 16px;
+            font-family: $font-family;
+            font-weight: $font-weight;
+            font-size: 32px;
+            line-height: 42px;
+        }
+
+        h6 {
+            font-family: $font-family;
+            font-weight: 500;
+            font-size: 18px;
+            color: #7E8492;
+            line-height: 32px;
+            margin-bottom: 24px;
+        }
+    }
+}

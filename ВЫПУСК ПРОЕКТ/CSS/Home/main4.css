@@ -1,0 +1,19 @@
+.main4 .everything-done { display: flex; margin-bottom: 80px; }
+
+.main4 .everything-done .done1 { display: flex; }
+
+.main4 .everything-done .done2 { display: flex; }
+
+.main4 .everything-done img { margin: 25px 72px; }
+
+.main4 .everything-done h2 { font-family: Inter; font-weight: 600; font-size: 64px; color: #1D1E25; margin-bottom: 8px; }
+
+.main4 .everything-done h6 { font-family: Inter; font-weight: 500; font-size: 18px; color: #7E8492; line-height: 32px; }
+
+.main4 .everything-done + img { margin-bottom: 80px; }
+
+.main4 .text-business { display: flex; justify-content: space-between; margin-bottom: 160px; }
+
+.main4 .text-business h2 { font-family: Inter; font-weight: 600; font-size: 40px; color: #1D1E25; }
+
+.main4 .text-business h6 { font-family: Inter; font-weight: 500; font-size: 18px; color: #7E8492; line-height: 32px; }

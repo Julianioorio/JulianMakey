@@ -1,0 +1,155 @@
+$font-weight: 600;
+$font-family: Inter;
+
+.main3 {
+    display: flex;
+    margin-top: 160px;
+    margin-bottom: 134px;
+    .statistic-total {
+        width: 298px;
+        background-size: cover;
+        flex-basis: 585px;
+        margin-right: 58px;
+        position: relative;
+        &>div {
+            background-color: white;
+        }
+        .statistic-all {
+            display: flex;
+            flex-direction: column;
+            padding: 18px;
+            position: absolute;
+            bottom: 60px;
+            right: 35px;
+        }
+        .statistic-more {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 19px;
+            p {
+                font-family: $font-family;
+                font-weight: $font-weight;
+                font-size: 16px;
+            }
+        }
+        .Total-income {
+            border-bottom: 1px solid #EDEDED;
+            display: flex;
+            padding-bottom: 23px;
+            img {
+                margin-right: 26px;
+            }
+            div {
+                display: flex;
+                flex-direction: column;
+                p:first-child {
+                    font-family: $font-family;
+                    font-weight: 500;
+                    font-size: 10px;
+                    color: #7E8492;
+                    margin-bottom: 6px;
+                }
+                img {
+                    margin-right: 4px;
+                    padding: 2px;
+                }
+                .dol {
+                    font-family: $font-family;
+                    font-weight: 700;
+                    color: #1D1E25;
+                    margin-right: 12px;
+                }
+                .Percentage {
+                    font-family: $font-family;
+                    color: #1D1E25;
+                }
+                p:last-child {
+                    font-family: $font-family;
+                    font-size: 9px;
+                    font-weight: 400;
+                    color: #7E8492;
+                }
+                span {
+                    margin-bottom: 9px;
+                }
+            }
+        }
+        .Total-Expense {
+            display: flex;
+            margin-top: 26px;
+            img {
+                margin-right: 26px;
+            }
+            div {
+                display: flex;
+                flex-direction: column;
+                p:first-child {
+                    font-family: $font-family;
+                    font-weight: 500;
+                    font-size: 10px;
+                    color: #7E8492;
+                    margin-bottom: 6px;
+                }
+                img {
+                    margin-right: 1px;
+                    vertical-align: middle;
+                }
+                .dol {
+                    font-family: $font-family;
+                    font-weight: 700;
+                    color: #1D1E25;
+                    margin-right: 12px;
+                }
+                .Percentage {
+                    font-family: $font-family;
+                    color: #1D1E25;
+                }
+                p:last-child {
+                    font-family: $font-family;
+                    font-size: 9px;
+                    font-weight: 400;
+                    color: #7E8492;
+                }
+                span {
+                    margin-bottom: 9px;
+                }
+            }
+        }
+    }
+    .revenue {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 557px;
+        h2 {
+            font-family: $font-family;
+            font-weight: $font-weight;
+            font-size: 56px;
+            margin-bottom: 24px;
+        }
+        h6 {
+            color: #7E8492;
+            font-family: $font-family;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 32px;
+            margin-bottom: 40px;
+        }
+        div {
+            img {
+                vertical-align: middle;
+                margin-right: 23px;
+                height: 100%;
+                float: left;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            h6 {
+                font-family: $font-family;
+            font-weight: 500;
+            color: #1D1E25;
+            line-height: 32px;
+            font-size: 18px;
+            }
+        }
+    }
+}

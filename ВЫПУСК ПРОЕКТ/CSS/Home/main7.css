@@ -1,0 +1,11 @@
+.main7 { padding-top: 60px; padding-bottom: 91px; }
+
+.main7 h2 { font-family: Inter; font-weight: 600; font-size: 56px; color: #1D1E25; text-align: center; margin-bottom: 24px; }
+
+.main7 h6 { font-family: Inter; font-weight: 500; font-size: 18px; line-height: 32px; color: #7E8492; text-align: center; margin-bottom: 80px; }
+
+.main7 .CAR { display: flex; justify-content: space-between; }
+
+.main7 .CAR p { margin-top: 16px; margin-bottom: 16px; color: #7E8492; }
+
+.main7 .CAR + h2 { font-family: Inter; font-weight: 600; font-size: 32px; color: #1D1E25; text-align: left; }
